@@ -1,17 +1,7 @@
 import React from "react";
 import Router from "next/router";
 import makeStyles from '@mui/styles/makeStyles';
-// @mui/icons-material
 
-import ShoppingCartCheckoutIcon from '@mui/icons-material/ShoppingCartCheckout';
-import MedicalInformationIcon from '@mui/icons-material/MedicalInformation';
-import CloudDoneIcon from '@mui/icons-material/CloudDone';
-import TerminalIcon from '@mui/icons-material/Terminal';
-import MonetizationOnIcon from '@mui/icons-material/MonetizationOn';
-import AccountTreeIcon from '@mui/icons-material/AccountTree';
-import SpeedIcon from '@mui/icons-material/Speed';
-import PsychologyIcon from '@mui/icons-material/Psychology';
-import QueryStatsIcon from '@mui/icons-material/QueryStats';
 // core components
 import GridContainer from "/components/Grid/GridContainer.js";
 import GridItem from "/components/Grid/GridItem.js";

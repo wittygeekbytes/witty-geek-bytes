@@ -90,8 +90,7 @@ export default function SectionAboutUsDetails({ ...rest }) {
                 >
                   <Grid container>
                     <Grid item xs={12}>
-                      To contribute to the overall wellbeing of the communities
-                      we operate our business.
+                      From Zero to Job-Ready , With You All the Way.
                     </Grid>
                   </Grid>
                 </h4>
@@ -165,8 +164,7 @@ export default function SectionAboutUsDetails({ ...rest }) {
                 >
                   <Grid container>
                     <Grid item xs={12}>
-                      To inspire people and improve lives through technology
-                      delivered by us.
+                      In Depth knowledge , Interview preparation, Quizes, Weekend live Webinar
                     </Grid>
                   </Grid>
                 </h4>
@@ -240,9 +238,10 @@ export default function SectionAboutUsDetails({ ...rest }) {
                 >
                   <Grid container>
                     <Grid item xs={12}>
-                      With oneness in heart, trust in purpose, humour in
-                      journey, and integrity in action — we strive not just to
-                      survive, but to truly thrive.
+                     Focus & Discipline
+                     Dedicate & Respect Time,
+                     Setting up Targets,
+                     Continuous Learning
                     </Grid>
                   </Grid>
                 </h4>

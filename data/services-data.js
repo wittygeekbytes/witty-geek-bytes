@@ -1,55 +1,52 @@
 export const services = [
     {
-        serviceTitle: "Enterprise Application - Packaged Software",
+        serviceTitle: "Front End Development ",
         serviceImageUrl: "img/lsk_imgs/enterprise.png",
         servicePoints: [
-           "We provide ERP –SAP/ Oracle Apps/ Open Source ERP consulting, implementation, and maintenance services leveraging ,Our Skills on S4 HANA for general industries and expertise in areas of SAP S/4 for Fashion and Retail to get you the unfair advantage."
+           "Become an In-Demand Developer in a job market hungry for React.js talent."
         ],
-        serviceOneLiner :"We provide ERP –SAP/ Oracle Apps/ Open Source ERP consulting, implementation and maintenance services."
+        serviceOneLiner :"Become an In-Demand Developer in a job market hungry for React.js talent."
     },
     {
-        serviceTitle: "Data Analytics - Business Intelligence",
+        serviceTitle: "Java Full Stack Development ",
         serviceImageUrl: "img/lsk_imgs/data-anlytics.png",
         servicePoints: [
-           "Commit to new vectors of growth as well as supporting long-term digital transformation with Witty Geek Bytes AI services. Tapping into our extensive tech expertise, you can create, maintain, and scale up your Artificial Intelligence (AI) and Machine Learning (ML) solutions while augmenting human capacity and increasing business value."
+           "Future-proof your career with the power of Java, Spring Boot, and modern front-end technologies."
         ],
-        serviceOneLiner :"Commit to new vectors of growth as well as supporting long-term digital transformation with Witty Geek Bytes AI services. "
+        serviceOneLiner :"Future-proof your career with the power of Java, Spring Boot, and modern front-end technologies. "
     },
     {
-        serviceTitle: "E-Commerce and Retail",
+        serviceTitle: "Python Full Stack Development ",
         serviceImageUrl: "img/lsk_imgs/ecommerce.png",
         servicePoints: [
-           "Transforming online shopping experiences and optimizing retail operations for seamless, secure, and customer-centric transactions."
+           "Level up from coder to creator with Python Full Stack mastery."
         ],
-        serviceOneLiner :"Transforming online shopping experiences and optimizing retail operations for seamless, secure, and customer-centric transactions."
+        serviceOneLiner :"Level up from coder to creator with Python Full Stack mastery."
     },
     {
         serviceTitle: "SEO & Digital Marketing",
         serviceImageUrl: "img/lsk_imgs/seo.png",
         servicePoints: [
-           "SEO (Search Engine Optimization) improves a website's visibility on search engines, while Digital Marketing encompasses various online strategies to promote products or services"
+           "Master SEO & Digital Marketing skills to rank higher, convert better, and grow faster."
         ],
-        serviceOneLiner :"SEO (Search Engine Optimization) improves a website's visibility on search engines"
+        serviceOneLiner :"Master SEO & Digital Marketing skills to rank higher, convert better, and grow faster."
     },
+
     {
-        serviceTitle: "Financial Process Outsourcing",
-        serviceImageUrl: "img/lsk_imgs/revenue-operations.png",
-        servicePoints: [
-           , "Accounts Payable/ Receivable accounting"
-           , "General Accounting / Payroll accounting"
-           , "Fixed Assets Accounting"
-        ],
-        serviceOneLiner :"Business priorities are evolving and finance functions must transform to meet the expectations of new age customers"
-    },
-    {
-        serviceTitle: "Software Testing            ",
+        serviceTitle: "Kotlin Development ",
         serviceImageUrl: "img/lsk_imgs/quality.png",
         servicePoints: [
-            "Automation Testing- API testing, GUI Testing, Content Testing.",
-            "Mobile Applications Testing",
-            "Performance Testing",
+            "Command better opportunities by mastering Android app development the Kotlin way.",
         ],
-        serviceOneLiner :"Set up Testing COE Consulting Propel and Accelerate Your Testing Game With Our Testing Centre Of Excellence"
+        serviceOneLiner :"Command better opportunities by mastering Android app development the Kotlin way."
+    },
+        {
+        serviceTitle: "React Native App Development ",
+        serviceImageUrl: "img/lsk_imgs/quality.png",
+        servicePoints: [
+            "From concept to App Store & Play Store — become a complete React Native app developer.",
+        ],
+        serviceOneLiner :"From concept to App Store & Play Store — become a complete React Native app developer."
     },
 
 ];

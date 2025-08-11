@@ -14,6 +14,10 @@ import Button from "/components/CustomButtons/Button.js";
 import GridContainer from "/components/Grid/GridContainer.js";
 import GridItem from "/components/Grid/GridItem.js";
 import { Box, Divider, Typography } from "@mui/material";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import TwitterIcon from "@mui/icons-material/Twitter";
+import FacebookIcon from "@mui/icons-material/Facebook";
+import InstagramIcon from "@mui/icons-material/Instagram";
 
 const useStyles = makeStyles(sectionsPageStyle);
 
@@ -185,30 +189,74 @@ export default function SectionsPage() {
           </li>
         </ul>
       </nav>
-        <Footer
-          className={classes.footer}
-          content={
-            <div>
-              {/* <Divider /> */}
-              <div className={classes.container}>
-                <GridContainer style={{ alignItems: "baseline" }}>
-                  <GridItem md={12}>
-                    <h4
-                      style={{
-                        fontFamily: "Montserrat",
-                        fontSize: "0.75rem",
-                        fontWeight: "500",
-                        color: "#000",
-                      }}
-                    >
-                      ©2025 wittygeekbytes.com
-                    </h4>
-                  </GridItem>
-                </GridContainer>
-              </div>
+
+      <Footer
+        className={classes.footer}
+        content={
+          <div style={{ padding: "1.5rem 0" }}>
+            <div className={classes.container}>
+              <GridContainer
+                style={{
+                  alignItems: "center",
+                  justifyContent: "space-between",
+                  flexWrap: "wrap",
+                }}
+              >
+                {/* Left - Copyright */}
+                <GridItem xs={12} sm={6} style={{ textAlign: "left" }}>
+                  <Typography
+                    style={{
+                      fontFamily: "Montserrat",
+                      fontSize: "0.85rem",
+                      fontWeight: "500",
+                      color: "#555",
+                    }}
+                  >
+                    © {new Date().getFullYear()} wittygeekbytes.com , All Rights
+                    Reserved
+                  </Typography>
+                </GridItem>
+
+                {/* Right - Social Icons */}
+                <GridItem xs={12} sm={6} style={{ textAlign: "right" }}>
+                  <a
+                    href="https://www.linkedin.com/wittygeekbytes"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{ color: "#0A66C2", margin: "0 0.5rem" }}
+                  >
+                    <LinkedInIcon fontSize="medium" />
+                  </a>
+                  <a
+                    href="https://twitter.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{ color: "#1DA1F2", margin: "0 0.5rem" }}
+                  >
+                    <TwitterIcon fontSize="medium" />
+                  </a>
+                  <a
+                    href="https://facebook.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{ color: "#1877F2", margin: "0 0.5rem" }}
+                  >
+                    <FacebookIcon fontSize="medium" />
+                  </a>
+                  <a
+                    href="https://instagram.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{ color: "#1877F2", margin: "0 0.5rem" }}
+                  >
+                    <InstagramIcon fontSize="medium" />
+                  </a>
+                </GridItem>
+              </GridContainer>
             </div>
-          }
-        />
+          </div>
+        }
+      />
     </div>
   );
 }
