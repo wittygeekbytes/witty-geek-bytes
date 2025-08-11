@@ -5,11 +5,8 @@ import HeaderLinks from "/components/Header/HeaderLinks.js";
 import SectionHome from "/pages-sections/sections-page/SectionHome.js";
 import SectionAboutUsDetails from "/pages-sections/sections-page/SectionAboutUsDetails.js";
 import SectionServices from "/pages-sections/sections-page/SectionServices.js";
-// import SectionServicesCarousel from "/pages-sections/sections-page/SectionServicesCarousel.js";
 import SectionContactUs from "/pages-sections/sections-page/SectionContactUs.js";
-import SectionProducts from "/pages-sections/sections-page/SectionProducts.js";
-import SectionClients from "/pages-sections/sections-page/SectionClients.js";
-import SectionCareers from "/pages-sections/sections-page/SectionCareers.js";
+
 import SectionTeams from "/pages-sections/sections-page/SectionTeams.js";
 import sectionsPageStyle from "/styles/jss/novel-logiks/pages/sectionsPageStyle.js";
 import Footer from "../components/Footer/Footer";
@@ -97,10 +94,7 @@ export default function SectionsPage() {
         <SectionHome id="home" />
         <SectionAboutUsDetails id="about-us" />
         <SectionServices id="services" />
-        <SectionProducts id="products" />
-        <SectionClients id="clients" />
         <SectionTeams id="teams" />
-        <SectionCareers id="careers" />
         <SectionContactUs id="contactUs" />
       </div>
       <nav id="cd-vertical-nav" style={{ display: "none" }}>
@@ -170,50 +164,8 @@ export default function SectionsPage() {
           </li>
           <li>
             <a
-              href="#projects"
-              data-number="4"
-              className=""
-              onClick={(e) => {
-                var isMobile = navigator.userAgent.match(
-                  /(iPad)|(iPhone)|(iPod)|(android)|(webOS)/i
-                );
-                if (isMobile) {
-                  // if we are on mobile device the scroll into view will be managed by the browser
-                } else {
-                  e.preventDefault();
-                  smoothScroll("products");
-                }
-              }}
-            >
-              <span className="cd-dot" />
-              <span className="cd-label">Products</span>
-            </a>
-          </li>
-          <li>
-            <a
-              href="#clients"
-              data-number="5"
-              className=""
-              onClick={(e) => {
-                var isMobile = navigator.userAgent.match(
-                  /(iPad)|(iPhone)|(iPod)|(android)|(webOS)/i
-                );
-                if (isMobile) {
-                  // if we are on mobile device the scroll into view will be managed by the browser
-                } else {
-                  e.preventDefault();
-                  smoothScroll("clients");
-                }
-              }}
-            >
-              <span className="cd-dot" />
-              <span className="cd-label">Clients</span>
-            </a>
-          </li>
-          <li>
-            <a
               href="#teams"
-              data-number="6"
+              data-number="4"
               className=""
               onClick={(e) => {
                 var isMobile = navigator.userAgent.match(
@@ -234,7 +186,7 @@ export default function SectionsPage() {
           <li>
             <a
               href="#offices"
-              data-number="7"
+              data-number="5"
               className=""
               onClick={(e) => {
                 var isMobile = navigator.userAgent.match(
@@ -254,29 +206,8 @@ export default function SectionsPage() {
           </li>
           <li>
             <a
-              href="#careers"
-              data-number="8"
-              className=""
-              onClick={(e) => {
-                var isMobile = navigator.userAgent.match(
-                  /(iPad)|(iPhone)|(iPod)|(android)|(webOS)/i
-                );
-                if (isMobile) {
-                  // if we are on mobile device the scroll into view will be managed by the browser
-                } else {
-                  e.preventDefault();
-                  smoothScroll("careers");
-                }
-              }}
-            >
-              <span className="cd-dot" />
-              <span className="cd-label">Careers</span>
-            </a>
-          </li>
-          <li>
-            <a
               href="#contactUs"
-              data-number="9"
+              data-number="6"
               className=""
               onClick={(e) => {
                 var isMobile = navigator.userAgent.match(
@@ -312,7 +243,7 @@ export default function SectionsPage() {
                         color: "#000",
                       }}
                     >
-                      ©2025 novellogiks.com
+                      ©2025 wittygeekbytes.com
                     </h4>
                   </GridItem>
                 </GridContainer>
