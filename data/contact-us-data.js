@@ -13,8 +13,7 @@ export const contactUs = {
         "Hyderabad, TS 500075",
     ],
     email_ids :[
-        "contact@novellogiks.com",
-        "hr@novellogiks.com",
+        "hello@wittygeekbytes.com",
     ],
     phone_no :[
         "(+91) 7032405627",

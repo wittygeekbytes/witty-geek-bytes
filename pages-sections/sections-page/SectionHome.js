@@ -112,11 +112,11 @@ WebkitBackgroundClip: "text",
               height: "2.5rem",
               fontWeight: 600,
               width: { lg: "10rem", xs: "12.5rem" },
-              background: "linear-gradient(135deg, #F4D03F 0%, #FF8008 100%)",
+              background: "linear-gradient(135deg, #00C1CC 0%, #6B31ED 100%)",
               boxShadow: "0 4px 12px rgba(0, 0, 0, 0.2)",
               "&:hover": {
                 background:
-                  "linear-gradient(to right, #FF8008 0%, #FFC837  51%, #FF8008  100%)",
+                  "linear-gradient(to right, #6B31ED 0%, #00C1CC  51%, #6B31ED  100%)",
                 boxShadow: "0 6px 15px rgba(0, 0, 0, 0.25)",
               },
             }}

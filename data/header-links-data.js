@@ -15,12 +15,6 @@ export const headerLinksData = {
         title: "Services",
         smoothScroll:"services"
     },
-   
-    {
-        href: "/sections#teams",
-        title: "Team",
-        smoothScroll:"teams"
-    },
     {
         href: "/sections#contactUs",
         title: "Contact Us",

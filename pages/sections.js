@@ -94,7 +94,7 @@ export default function SectionsPage() {
         <SectionHome id="home" />
         <SectionAboutUsDetails id="about-us" />
         <SectionServices id="services" />
-        <SectionTeams id="teams" />
+        {/* <SectionTeams id="teams" /> */}
         <SectionContactUs id="contactUs" />
       </div>
       <nav id="cd-vertical-nav" style={{ display: "none" }}>
@@ -164,50 +164,8 @@ export default function SectionsPage() {
           </li>
           <li>
             <a
-              href="#teams"
-              data-number="4"
-              className=""
-              onClick={(e) => {
-                var isMobile = navigator.userAgent.match(
-                  /(iPad)|(iPhone)|(iPod)|(android)|(webOS)/i
-                );
-                if (isMobile) {
-                  // if we are on mobile device the scroll into view will be managed by the browser
-                } else {
-                  e.preventDefault();
-                  smoothScroll("teams");
-                }
-              }}
-            >
-              <span className="cd-dot" />
-              <span className="cd-label">Teams</span>
-            </a>
-          </li>
-          <li>
-            <a
-              href="#offices"
-              data-number="5"
-              className=""
-              onClick={(e) => {
-                var isMobile = navigator.userAgent.match(
-                  /(iPad)|(iPhone)|(iPod)|(android)|(webOS)/i
-                );
-                if (isMobile) {
-                  // if we are on mobile device the scroll into view will be managed by the browser
-                } else {
-                  e.preventDefault();
-                  smoothScroll("offices");
-                }
-              }}
-            >
-              <span className="cd-dot" />
-              <span className="cd-label">Offices</span>
-            </a>
-          </li>
-          <li>
-            <a
               href="#contactUs"
-              data-number="6"
+              data-number="4"
               className=""
               onClick={(e) => {
                 var isMobile = navigator.userAgent.match(

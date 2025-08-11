@@ -19,7 +19,6 @@ export default function SectionAboutUsDetails({ ...rest }) {
     <div className="cd-section" {...rest}>
       <div
         className={classes.container}
-        // style={{ marginTop: isLargeScreen ? "2rem" : "1rem" }}
       >
         <GridContainer>
           <GridItem xs={12} sm={4} md={4}>
@@ -28,9 +27,9 @@ export default function SectionAboutUsDetails({ ...rest }) {
               style={{
                 minHeight: "15rem",
                 height: "15rem",
-                backgroundColor: "#FBDA61",
+                backgroundColor: "#6B31ED",
                 backgroundImage:
-                  "linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%)",
+                  "linear-gradient(45deg, #6B31ED 0%, #00C1CC 100%)",
               }}
             >
               <CardBody>
@@ -100,17 +99,14 @@ export default function SectionAboutUsDetails({ ...rest }) {
             </Card>
           </GridItem>
           <GridItem xs={12} sm={4} md={4}>
-            {/* <Card blog style={{ backgroundColor: "transparent", minHeight:"15rem", height:"15rem" }}> */}
             <Card
               blog
               style={{
                 minHeight: "15rem",
                 height: "15rem",
-                backgroundColor: "#4158D0",
+                backgroundColor: "#00C1CC",
                 backgroundImage:
-                  "linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%)",
-                // backgroundColor: '#FBDA61',
-                // backgroundImage: 'linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%)'
+                 "linear-gradient(45deg, #00C1CC 0%, #6B31ED 100%)",
               }}
             >
               <CardBody>
@@ -183,9 +179,9 @@ export default function SectionAboutUsDetails({ ...rest }) {
               style={{
                 minHeight: "15rem",
                 height: "15rem",
-                backgroundColor: "#FBDA61",
+                backgroundColor: "#6B31ED",
                 backgroundImage:
-                  "linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%)",
+               "linear-gradient(45deg, #6B31ED 0%, #00C1CC 100%)",
               }}
             >
               <CardBody>
