@@ -27,7 +27,7 @@ export default function SectionHeaders(props) {
         {/* Background Image */}
         <Box
           component="img"
-          src="/img/lsk_imgs/business_home.png"
+          src="/img/lsk_imgs/business-home.jpg"
           alt="Background"
           sx={{
             position: "absolute",
