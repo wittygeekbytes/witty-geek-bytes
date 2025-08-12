@@ -1,7 +1,7 @@
 export const services = [
     {
         serviceTitle: "Front End Development ",
-        serviceImageUrl: "img/lsk_imgs/enterprise.png",
+        serviceImageUrl: "img/resized_imgs/react-dev.jpg",
         servicePoints: [
            "Become an In-Demand Developer in a job market hungry for React.js talent."
         ],
@@ -9,7 +9,7 @@ export const services = [
     },
     {
         serviceTitle: "Java Full Stack Development ",
-        serviceImageUrl: "img/lsk_imgs/data-anlytics.png",
+        serviceImageUrl: "img/resized_imgs/java-dev.jpg",
         servicePoints: [
            "Future-proof your career with the power of Java, Spring Boot, and modern front-end technologies."
         ],
@@ -34,7 +34,7 @@ export const services = [
 
     {
         serviceTitle: "Kotlin Development ",
-        serviceImageUrl: "img/lsk_imgs/quality.png",
+        serviceImageUrl: "img/resized_imgs/mob-app-dev.jpg",
         servicePoints: [
             "Command better opportunities by mastering Android app development the Kotlin way.",
         ],
@@ -42,7 +42,7 @@ export const services = [
     },
         {
         serviceTitle: "React Native App Development ",
-        serviceImageUrl: "img/lsk_imgs/quality.png",
+        serviceImageUrl: "img/resized_imgs/react-native-app.jpg",
         servicePoints: [
             "From concept to App Store & Play Store — become a complete React Native app developer.",
         ],

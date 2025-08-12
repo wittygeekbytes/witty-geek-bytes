@@ -21,13 +21,6 @@ const useStyles = makeStyles(headersStyle);
 
 export default function SectionHeaders({ ...rest }) {
   const classes = useStyles();
-  const routeToAiDetails = () => {
-    Router.push("/ai-details");
-  }
-
-  const routeToContactUs = () => {
-    Router.push("/contact-us");
-  }
 
   return (
     <div className="cd-section" {...rest} style={{background : "#0D47A1"}}>

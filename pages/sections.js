@@ -6,14 +6,11 @@ import SectionHome from "/pages-sections/sections-page/SectionHome.js";
 import SectionAboutUsDetails from "/pages-sections/sections-page/SectionAboutUsDetails.js";
 import SectionServices from "/pages-sections/sections-page/SectionServices.js";
 import SectionContactUs from "/pages-sections/sections-page/SectionContactUs.js";
-
-import SectionTeams from "/pages-sections/sections-page/SectionTeams.js";
 import sectionsPageStyle from "/styles/jss/novel-logiks/pages/sectionsPageStyle.js";
 import Footer from "../components/Footer/Footer";
-import Button from "/components/CustomButtons/Button.js";
 import GridContainer from "/components/Grid/GridContainer.js";
 import GridItem from "/components/Grid/GridItem.js";
-import { Box, Divider, Typography } from "@mui/material";
+import { Typography } from "@mui/material";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import FacebookIcon from "@mui/icons-material/Facebook";

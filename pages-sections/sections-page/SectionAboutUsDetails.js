@@ -25,9 +25,9 @@ export default function SectionAboutUsDetails({ ...rest }) {
               style={{
                 minHeight: "20rem",
                 height: "20rem",
-                backgroundColor: "#6B2FED",
-                backgroundImage:
-                  "linear-gradient(45deg, #6B2FED 0%, #71DCE3 100%)",
+                // backgroundColor: "#6B2FED",
+                // backgroundImage:
+                //   "linear-gradient(45deg, #6B2FED 0%, #71DCE3 100%)",
               }}
             >
               <CardBody>
@@ -46,7 +46,7 @@ export default function SectionAboutUsDetails({ ...rest }) {
                       height: "2rem",
                       textAlign: "center",
                       justifyContent: "center",
-                      color: "#FFFFFF",
+                      color: "#000",
                     }}
                   >
                     <img
@@ -71,7 +71,7 @@ export default function SectionAboutUsDetails({ ...rest }) {
                     lineHeight: "1.5rem",
                     fontWeight: "500",
                     textAlign: "left",
-                    color: "#FFFFFF",
+                    color: "#000",
                   }}
                 >
                   <Grid container>
@@ -94,9 +94,6 @@ export default function SectionAboutUsDetails({ ...rest }) {
               style={{
                 minHeight: "20rem",
                 height: "20rem",
-                backgroundColor: "#71DCE3",
-                backgroundImage:
-                  "linear-gradient(45deg, #71DCE3 0%, #6B2FED 100%)",
               }}
             >
               <CardBody>
@@ -136,7 +133,7 @@ export default function SectionAboutUsDetails({ ...rest }) {
                     lineHeight: "1.5rem",
                     fontWeight: "500",
                     textAlign: "left",
-                    color: "#FFFFFF",
+                    color: "#000",
                   }}
                 >
                   <Grid container>
@@ -162,9 +159,6 @@ export default function SectionAboutUsDetails({ ...rest }) {
               style={{
                 minHeight: "20rem",
                 height: "20rem",
-                backgroundColor: "#6B2FED",
-                backgroundImage:
-                  "linear-gradient(45deg, #6B2FED 0%, #71DCE3 100%)",
               }}
             >
               <CardBody>
@@ -204,7 +198,7 @@ export default function SectionAboutUsDetails({ ...rest }) {
                     lineHeight: "1.5rem",
                     fontWeight: "500",
                     textAlign: "left",
-                    color: "#FFFFFF",
+                    color: "#000",
                   }}
                 >
                   <Grid container>
