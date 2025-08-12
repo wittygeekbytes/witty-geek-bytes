@@ -7,6 +7,7 @@ import Card from "../../components/Card/Card.js";
 import CardBody from "../../components/Card/CardBody.js";
 import Grid from "@mui/material/Grid";
 import { Box, Typography, useMediaQuery } from "@mui/material";
+import CheckCircleIcon from "@mui/icons-material/CheckCircle";
 const useStyles = makeStyles(headersStyle);
 
 export default function SectionAboutUsDetails({ ...rest }) {
@@ -283,21 +284,73 @@ export default function SectionAboutUsDetails({ ...rest }) {
               pr: { xs: 2, sm: 4, md: 6 }, // extra space on the right
             }}
           >
-            <Typography>
-              Learning React can feel overwhelming—outdated tutorials, constant
-              updates, and confusing concepts like Hooks, Context, or Server
-              Components.
-            </Typography>
-            <Typography>
-              You waste hours chasing fixes that take just one line of code,
-              losing time you could spend on things you enjoy.
-            </Typography>
-            <Typography>
-              It’s no wonder so many beginners give up—I almost did too.
-            </Typography>
-            <Typography>
-              I’ve had moments thinking, “Maybe I’m not cut out for this.”
-            </Typography>
+            <Box
+              sx={{
+                display: "flex",
+                alignItems: "flex-start",
+                gap: "0.5rem",
+                mb: 1.5,
+              }}
+            >
+              <CheckCircleIcon
+                sx={{ color: "#28a745", fontSize: "1.5rem", mt: "2px" }}
+              />
+              <Typography component="span">
+                {" "}
+                Learning React can feel overwhelming—outdated tutorials,
+                constant updates, and confusing concepts like Hooks, Context, or
+                Server Components.
+              </Typography>
+            </Box>
+            <Box
+              sx={{
+                display: "flex",
+                alignItems: "flex-start",
+                gap: "0.5rem",
+                mb: 1.5,
+              }}
+            >
+              <CheckCircleIcon
+                sx={{ color: "#28a745", fontSize: "1.5rem", mt: "2px" }}
+              />
+              <Typography component="span">
+                {" "}
+                You waste hours chasing fixes that take just one line of code,
+                losing time you could spend on things you enjoy.
+              </Typography>
+            </Box>
+            <Box
+              sx={{
+                display: "flex",
+                alignItems: "flex-start",
+                gap: "0.5rem",
+                mb: 1.5,
+              }}
+            >
+              <CheckCircleIcon
+                sx={{ color: "#28a745", fontSize: "1.5rem", mt: "2px" }}
+              />
+              <Typography component="span">
+                {" "}
+                It’s no wonder so many beginners give up—I almost did too.
+              </Typography>
+            </Box>
+            <Box
+              sx={{
+                display: "flex",
+                alignItems: "flex-start",
+                gap: "0.5rem",
+                mb: 1.5,
+              }}
+            >
+              <CheckCircleIcon
+                sx={{ color: "#28a745", fontSize: "1.5rem", mt: "2px" }}
+              />
+              <Typography component="span">
+                {" "}
+                I’ve had moments thinking, “Maybe I’m not cut out for this.”
+              </Typography>
+            </Box>
           </Grid>
 
           <Grid
@@ -320,19 +373,73 @@ export default function SectionAboutUsDetails({ ...rest }) {
               pl: { xs: 2, sm: 4, md: 6 }, // extra space on the left
             }}
           >
-            <Typography>
-              I’d walk away from coding for weeks—not from lack of passion, but
-              from mental exhaustion.
-            </Typography>
-            <Typography>
-              What I needed was a clear, structured roadmap—step-by-step
-              guidance with modern, working examples for 2025. Something to save
-              me months (or years) of frustration.
-            </Typography>
-            <Typography>
-              If you’re stuck in the React learning loop, I’ve been there.
-            </Typography>
-            <Typography>The way forward starts with the right path.</Typography>
+            <Box
+              sx={{
+                display: "flex",
+                alignItems: "flex-start",
+                gap: "0.5rem",
+                mb: 1.5,
+              }}
+            >
+              <CheckCircleIcon
+                sx={{ color: "#28a745", fontSize: "1.5rem", mt: "2px" }}
+              />
+              <Typography component="span">
+                {" "}
+                I’d walk away from coding for weeks—not from lack of passion,
+                but from mental exhaustion.
+              </Typography>
+            </Box>
+            <Box
+              sx={{
+                display: "flex",
+                alignItems: "flex-start",
+                gap: "0.5rem",
+                mb: 1.5,
+              }}
+            >
+              <CheckCircleIcon
+                sx={{ color: "#28a745", fontSize: "1.5rem", mt: "2px" }}
+              />
+              <Typography component="span">
+                {" "}
+                What I needed was a clear, structured roadmap—step-by-step
+                guidance with modern, working examples for 2025. Something to
+                save me months (or years) of frustration.
+              </Typography>
+            </Box>
+            <Box
+              sx={{
+                display: "flex",
+                alignItems: "flex-start",
+                gap: "0.5rem",
+                mb: 1.5,
+              }}
+            >
+              <CheckCircleIcon
+                sx={{ color: "#28a745", fontSize: "1.5rem", mt: "2px" }}
+              />
+              <Typography component="span">
+                {" "}
+                If you’re stuck in the React learning loop, I’ve been there.
+              </Typography>
+            </Box>
+            <Box
+              sx={{
+                display: "flex",
+                alignItems: "flex-start",
+                gap: "0.5rem",
+                mb: 1.5,
+              }}
+            >
+              <CheckCircleIcon
+                sx={{ color: "#28a745", fontSize: "1.5rem", mt: "2px" }}
+              />
+              <Typography component="span">
+                {" "}
+                The way forward starts with the right path.
+              </Typography>
+            </Box>
           </Grid>
           <Grid
             item
@@ -341,10 +448,10 @@ export default function SectionAboutUsDetails({ ...rest }) {
               fontFamily: "Poppins",
               fontWeight: 500,
               fontSize: {
-                lg: "1.25rem",
-                md: "1.25rem",
-                sm: "1rem",
-                xs: "1rem",
+                lg: "1rem",
+                md: "1rem",
+                sm: "0.75rem",
+                xs: "0.65rem",
               },
               lineHeight: { lg: "2rem", sm: "1.5rem", xs: "1.25rem" },
               display: "inline-block",
