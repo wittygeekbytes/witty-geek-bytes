@@ -386,25 +386,45 @@ export default function SectionAboutUsDetails({ ...rest }) {
               marginLeft: "auto",
             }}
           >
+            <GridContainer>
+          <GridItem xs={12} sm={4} md={3}>
+            <Box
+    component="img"
+     src="/img/resized_imgs/sunil.png" // replace with your image path  src="/img/resized_imgs/away_from_crowd.jpg"
+    alt="Somebody"
+    sx={{
+      width: "250px", // adjust size
+      height: "250px",
+      borderRadius: "50%", // makes it circular
+      objectFit: "cover", // ensures proper cropping
+      border: "3px solid #ccc", // optional border
+      boxShadow: "0 4px 8px rgba(0,0,0,0.2)", // optional shadow
+    }}
+  />
+          </GridItem>
+          <GridItem xs={12} sm={8} md={9}>
             Sunil has over 15 years of extensive experience in Java, JavaScript,
             React.js, Python, and AWS—coupled with hands-on implementation
-            across diverse domains and top-tier organizations—I have crafted a
-            course designed to deliver clear, practical, and impactful learning.
+            across diverse domains and top-tier organizations.<br/>
+            I have crafted these courses to deliver clear, practical, and impactful learning.
             <br />
             This course is structured to provide in-depth insights into each
             topic, enriched with hands-on exercises, quizzes, and real-world
-            examples to help learners gain confidence and mastery with ease.
+            examples to help learners gain confidence and mastery with ease.<br/>
             Every topic is carefully curated to align with the latest industry
             standards.
             <br />
             I specialize in helping developers who struggle with understanding
             complex concepts or face challenges applying them effectively in
-            their workplace—often leading to missed expectations or
-            underperformance. I also assist job seekers who find it difficult to
+            their workplace often leading to missed expectations or
+            underperformance. <br/>
+            I also assist job seekers who find it difficult to
             crack technical interviews and secure their desired roles. <br />
             My goal is to bridge the gap between theory and practical
             application, empowering learners to excel in their careers with
-            confidence.
+            confidence.<br/>
+          </GridItem>
+           </GridContainer>
           </Grid>
         </GridContainer>
       </div>
