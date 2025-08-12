@@ -30,7 +30,7 @@ export default function ServicesDetails({ ...rest }) {
         <GridContainer style={{ marginBottom: '.25rem' }}>
           <GridItem md={6} style={{ color: '#112A46' }}>
             <h1 style={{
-              fontFamily: 'Montserrat',
+              fontFamily: 'Poppins',
               fontSize: '2rem',
               lineHeight: '2rem',
               fontWeight: '600',

@@ -35,27 +35,27 @@ export default function SectionContacts({ ...rest }) {
                   </GridItem>
                   <GridItem xs={12} sm={12} className={classes.gridItem} style={{ textAlign: "center", justifyContent: "center", alignItems: "center" }}>
                     <span >
-                      <Typography className={classes.infoArea} style={{ color: "white", fontWeight: "700", fontFamily: '"Montserrat"' }}>What Does Your Business Need?</Typography>
+                      <Typography className={classes.infoArea} style={{ color: "white", fontWeight: "700", fontFamily: '"Poppins"' }}>What Does Your Business Need?</Typography>
                     </span>
                   </GridItem>
                   <GridItem xs={12} sm={12} className={classes.gridItem} style={{ textAlign: "center", justifyContent: "center", alignItems: "center" }}>
                     <span >
-                      <Typography className={classes.infoArea} style={{ color: "white", fontWeight: "700", fontFamily: '"Montserrat"' }}>Learn how Witty Geek Bytes Technologies can move your technology and business strategy forward. Please contact us with any inquiries or requests to help you grow your business.</Typography>
+                      <Typography className={classes.infoArea} style={{ color: "white", fontWeight: "700", fontFamily: '"Poppins"' }}>Learn how Witty Geek Bytes Technologies can move your technology and business strategy forward. Please contact us with any inquiries or requests to help you grow your business.</Typography>
                     </span>
                   </GridItem>
                   <GridItem xs={12} sm={12} className={classes.gridItem} style={{ textAlign: "center", justifyContent: "center", alignItems: "center" }}>
                     <span >
-                      <Typography className={classes.infoArea} style={{ color: "white", fontWeight: "700", fontFamily: '"Montserrat"' }}>You need a partner. We're here to help</Typography>
+                      <Typography className={classes.infoArea} style={{ color: "white", fontWeight: "700", fontFamily: '"Poppins"' }}>You need a partner. We're here to help</Typography>
                     </span>
                   </GridItem>
                   <GridItem xs={12} sm={12} className={classes.gridItem} style={{ textAlign: "center", justifyContent: "center", alignItems: "center" }}>
                     <span >
-                      <Typography className={classes.infoArea} style={{ color: "white", fontWeight: "700", fontFamily: '"Montserrat"' }}>(+91) 2244451109<br />Mon - Fri, 8:00-22:00</Typography>
+                      <Typography className={classes.infoArea} style={{ color: "white", fontWeight: "700", fontFamily: '"Poppins"' }}>(+91) 2244451109<br />Mon - Fri, 8:00-22:00</Typography>
                     </span>
                   </GridItem>
                   <GridItem xs={12} sm={12} className={classes.gridItem} style={{ textAlign: "center", justifyContent: "center", alignItems: "center" }}>
                     <span >
-                      <Typography className={classes.infoArea} style={{ color: "white", fontWeight: "700", fontFamily: '"Montserrat"' }}>contact@novellogiks.com<br />hr@novellogiks.com<br /></Typography>
+                      <Typography className={classes.infoArea} style={{ color: "white", fontWeight: "700", fontFamily: '"Poppins"' }}>contact@novellogiks.com<br />hr@novellogiks.com<br /></Typography>
                     </span>
                   </GridItem>
                 </GridContainer>

@@ -84,7 +84,7 @@ const style = {
     color: grayColor[1],
     textDecoration: "none",
     fontWeight: 700,
-    fontFamily: "Montserrat"
+    fontFamily: "Poppins"
   },
   pullCenter: {
     display: "inline-block",

@@ -27,7 +27,7 @@
 //         <GridContainer style={{ marginBottom: '.25rem' }}>
 //           <GridItem md={12} style={{ color: '#112A46' }}>
 //             <h1 style={{
-//               fontFamily: 'Montserrat',
+//               fontFamily: 'Poppins',
 //               fontSize: '2rem',
 //               lineHeight: '2rem',
 //               fontWeight: '600',
@@ -47,21 +47,21 @@
 //         </GridContainer>
 //         <GridContainer>
 //           <GridItem md={6} style={{ color: '#112A46', marginTop: "5rem" }}>
-//             <Typography style={{ fontWeight: "600", fontFamily: '"Montserrat"' }}>
+//             <Typography style={{ fontWeight: "600", fontFamily: '"Poppins"' }}>
 //               <GridItem xs={12} sm={12} md={12} style={{ textAlign: "left", justifyContent: "center", alignItems: "center", marginTop: "5rem" }}>
 //                 What Does Your Business Need?
 //               </GridItem>
 //               <GridItem xs={12} sm={12} md={12} style={{ textAlign: "left", justifyContent: "center", alignItems: "center" }}>
-//                 <Typography style={{ fontWeight: "600", fontFamily: '"Montserrat"' }}>Learn how Witty Geek Bytes Technologies can move your technology and business strategy forward. Please contact us with any inquiries or requests to help you grow your business.</Typography>
+//                 <Typography style={{ fontWeight: "600", fontFamily: '"Poppins"' }}>Learn how Witty Geek Bytes Technologies can move your technology and business strategy forward. Please contact us with any inquiries or requests to help you grow your business.</Typography>
 //               </GridItem>
 //               <GridItem xs={12} sm={12} md={12} style={{ textAlign: "left", justifyContent: "center", alignItems: "center" }}>
-//                 <Typography style={{ fontWeight: "500", fontFamily: '"Montserrat"' }}>Please contact us with any inquiries or requests to help you grow your business.</Typography>
+//                 <Typography style={{ fontWeight: "500", fontFamily: '"Poppins"' }}>Please contact us with any inquiries or requests to help you grow your business.</Typography>
 //               </GridItem>
 //               <GridItem xs={12} sm={12} md={12} style={{ textAlign: "left", justifyContent: "center", alignItems: "center" }}>
-//                 <Typography style={{ fontWeight: "500", fontFamily: '"Montserrat"' }}>(+91) 2244451109<br />Mon - Fri, 8:00-22:00</Typography>
+//                 <Typography style={{ fontWeight: "500", fontFamily: '"Poppins"' }}>(+91) 2244451109<br />Mon - Fri, 8:00-22:00</Typography>
 //               </GridItem>
 //               <GridItem xs={12} sm={12} md={12} style={{ textAlign: "left", justifyContent: "center", alignItems: "center" }}>
-//                 <Typography style={{ fontWeight: "500", fontFamily: '"Montserrat"' }}>contact@novellogiks.com<br />hr@novellogiks.com<br /></Typography>
+//                 <Typography style={{ fontWeight: "500", fontFamily: '"Poppins"' }}>contact@novellogiks.com<br />hr@novellogiks.com<br /></Typography>
 //               </GridItem>
 //             </Typography>
 //           </GridItem>
@@ -87,7 +87,7 @@
 //                   <GridItem md={12}>
 //                     <h4
 //                       style={{
-//                         fontFamily: "Montserrat",
+//                         fontFamily: "Poppins",
 //                         fontSize: "0.75rem",
 //                         fontWeight: "500",
 //                         color: "#000",
@@ -139,7 +139,7 @@ export default function ContactUsPage() {
           <GridItem md={12}>
             <h1
               style={{
-                fontFamily: "Montserrat",
+                fontFamily: "Poppins",
                 fontSize: "2.5rem",
                 fontWeight: "700",
                 textAlign: "left",
@@ -167,7 +167,7 @@ export default function ContactUsPage() {
             <Typography
               style={{
                 fontWeight: "600",
-                fontFamily: "Montserrat",
+                fontFamily: "Poppins",
                 fontSize: "1.25rem",
                 marginBottom: "1rem",
               }}
@@ -177,7 +177,7 @@ export default function ContactUsPage() {
             <Typography
               style={{
                 fontWeight: "500",
-                fontFamily: "Montserrat",
+                fontFamily: "Poppins",
                 marginBottom: "1.5rem",
                 color: "#555",
               }}
@@ -190,13 +190,13 @@ export default function ContactUsPage() {
             {/* Contact Details */}
             <div style={{ marginBottom: "1rem" }}>
               <Phone style={{ color: "#0D47A1", marginRight: "0.5rem" }} />
-              <span style={{ fontFamily: "Montserrat", fontWeight: "500" }}>
+              <span style={{ fontFamily: "Poppins", fontWeight: "500" }}>
                 (+91) 2244451109 — Mon - Fri, 8:00-22:00
               </span>
             </div>
             <div>
               <Email style={{ color: "#0D47A1", marginRight: "0.5rem" }} />
-              <span style={{ fontFamily: "Montserrat", fontWeight: "500" }}>
+              <span style={{ fontFamily: "Poppins", fontWeight: "500" }}>
                 contact@novellogiks.com | hr@novellogiks.com
               </span>
             </div>
@@ -233,7 +233,7 @@ export default function ContactUsPage() {
                 <GridItem xs={12} sm={6} style={{ textAlign: "left" }}>
                   <Typography
                     style={{
-                      fontFamily: "Montserrat",
+                      fontFamily: "Poppins",
                       fontSize: "0.85rem",
                       fontWeight: "500",
                       color: "#555",

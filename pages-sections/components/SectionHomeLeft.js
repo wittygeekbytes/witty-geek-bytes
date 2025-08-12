@@ -56,7 +56,7 @@ export default function SectionHomeLeft({ ...rest }) {
             variant="h3"
             sx={{
               color: "#FFFFFF",
-              fontFamily: "Montserrat",
+              fontFamily: "Poppins",
               fontWeight: 500,
               fontSize: { lg: "2.25rem", md: "2rem", sm: "2rem", xs: "1.5rem" },
               lineHeight: "1.2",

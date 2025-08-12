@@ -26,7 +26,7 @@ export default function AiDetails() {
         <GridContainer style={{ marginBottom: '.25rem' }}>
           <GridItem md={12} style={{ color: '#112A46' }}>
             <h1 style={{
-              fontFamily: 'Montserrat',
+              fontFamily: 'Poppins',
               fontSize: '2rem',
               lineHeight: '2rem',
               fontWeight: '600',
@@ -42,7 +42,7 @@ export default function AiDetails() {
         <GridContainer style={{ marginBottom: "2rem", color: '#112A46', background: '#FFF' }}>
           <GridItem md={12} style={{ color: '#112A46' }}>
             <h1 style={{
-              fontFamily: 'Montserrat',
+              fontFamily: 'Poppins',
               fontSize: '1.5rem',
               lineHeight: '1.5rem',
               fontWeight: '600',
@@ -102,7 +102,7 @@ export default function AiDetails() {
                   <GridItem md={12}>
                     <h4
                       style={{
-                        fontFamily: "Montserrat",
+                        fontFamily: "Poppins",
                         fontSize: "0.75rem",
                         fontWeight: "500",
                         color: "#000",

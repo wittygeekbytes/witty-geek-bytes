@@ -72,7 +72,7 @@ export default function SectionHeaders(props) {
           {/* Animated Gradient Text */}
           {/* <Box
             sx={{
-              fontFamily: "Montserrat",
+              fontFamily: "Poppins",
               fontWeight: 600,
               fontSize: { lg: "3.5rem", sm: "2rem", xs: "2rem" },
               lineHeight: { lg: "4.125rem", sm: "3rem", xs: "3rem" },
@@ -102,8 +102,8 @@ WebkitBackgroundClip: "text",
           </Box> */}
           <Box
             sx={{
-              fontFamily: "Montserrat",
-              fontWeight: 600,
+              fontFamily: "Poppins",
+              fontWeight: 800,
               fontSize: { lg: "3rem", md: "3rem", sm: "2rem", xs: "2rem" },
               lineHeight: { lg: "3.75rem", sm: "3rem", xs: "3rem" },
               backgroundColor: "#71DCE3",
@@ -120,7 +120,7 @@ WebkitBackgroundClip: "text",
             <br />
             <Typography
               sx={{
-                fontFamily: "Montserrat",
+                fontFamily: "Poppins",
                 fontWeight: 500,
                 fontSize: { lg: "1.5rem", sm: "1.25rem", xs: "1rem" },
                 lineHeight: { lg: "2.75rem", sm: "3rem", xs: "3rem" },
@@ -169,7 +169,7 @@ WebkitBackgroundClip: "text",
           </Button> */}
            {/* <Box
             sx={{
-              fontFamily: "Montserrat",
+              fontFamily: "Poppins",
               fontWeight: 600,
               fontSize: { lg: "3rem", sm: "2rem", xs: "2rem" },
               lineHeight: { lg: "3.75rem", sm: "3rem", xs: "3rem" },

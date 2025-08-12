@@ -27,7 +27,7 @@ export default function SectionServicesLeft({ ...rest }) {
                     </GridItem>
                     <GridItem xs={12} sm={6} md={6}>
                         <h1 style={{
-                            fontFamily: 'Montserrat',
+                            fontFamily: 'Poppins',
                             fontSize: '1rem',
                             lineHeight: '1.25rem',
                             fontWeight: '600',

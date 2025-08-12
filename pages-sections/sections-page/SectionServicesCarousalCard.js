@@ -29,7 +29,7 @@ const SectionServicesCarousalCard = (props)=> {
                 </CardHeader>
                 <CardBody plain style={{marginBottom: "0.1rem"}}>
                     <Typography style={{
-                        fontFamily: 'Montserrat',
+                        fontFamily: 'Poppins',
                         fontSize: '1.125rem',
                         lineHeight: '1.5rem',
                         fontWeight: '600',
@@ -42,7 +42,7 @@ const SectionServicesCarousalCard = (props)=> {
                         {services[index].serviceTitle}
                     </Typography>
                     <Typography style={{
-                        fontFamily: 'Montserrat',
+                        fontFamily: 'Poppins',
                         fontSize: '1rem',
                         lineHeight: '1.5rem',
                         fontWeight: '500',

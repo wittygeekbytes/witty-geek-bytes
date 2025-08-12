@@ -59,7 +59,7 @@ export default function SectionHomeRight({ ...rest }) {
             speed={25}
             repeat={Infinity}
             style={{
-              fontFamily: "Montserrat",
+              fontFamily: "Poppins",
               fontWeight: 700,
               fontSize: "2.5em",
               lineHeight: "2.75em",

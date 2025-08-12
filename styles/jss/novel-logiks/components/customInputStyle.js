@@ -82,7 +82,7 @@ const customInputStyle = {
     height: "unset",
     "&,&::placeholder": {
       fontSize: "14px",
-      fontFamily: "Montserrat",
+      fontFamily: "Poppins",
       fontWeight: "400",
       lineHeight: "1.42857",
       opacity: "1"

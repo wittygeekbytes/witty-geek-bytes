@@ -111,7 +111,7 @@ export default function SectionIndustriesCarousel() {
 
               style={{
                 textTransform: "none",
-                fontFamily:"Montserrat",
+                fontFamily:"Poppins",
                 fontSize:"1.5rem",
                 fontWeight : "600",
                 color: '#112A46',
@@ -154,7 +154,7 @@ export default function SectionIndustriesCarousel() {
               style={{
                 color: '#112A46',
                 textTransform: "none",
-                fontFamily:"Montserrat",
+                fontFamily:"Poppins",
                 fontSize:"1.5rem",
                 borderColor: 'black',
                 border: '2px solid',

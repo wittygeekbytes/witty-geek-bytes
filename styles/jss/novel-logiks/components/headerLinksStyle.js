@@ -186,7 +186,7 @@ const headerLinksStyle = (theme) => ({
     "&,&:hover,&:focus": {
       color: "inherit",
       textDecoration: "solid",
-      fontFamily: 'Montserrat',
+      fontFamily: 'Poppins',
       fontWeight: 450,
       display: "flex",
       padding: "0.75rem 1.25rem 0.75rem 0.75rem"

@@ -81,7 +81,7 @@ export default function HeaderLinks(props) {
             className={classes.dropdownLink}
             style={{
               color: activeItem === each.title ? "#1e81b0" : "#06437a", // Highlight active item (gold color)
-              fontFamily: '"Montserrat", sans-serif',
+              fontFamily: '"Poppins", sans-serif',
               fontSize: "1rem",
               fontWeight: "600",
               letterSpacing: "0.5px",

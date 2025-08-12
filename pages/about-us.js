@@ -69,7 +69,7 @@ export default function AboutUs({ ...rest }) {
 
           style={{
             textTransform: "none",
-            fontFamily:"Montserrat",
+            fontFamily:"Poppins",
             fontSize:"1.5rem",
             fontWeight : "600",
             color: '#FFF',
@@ -112,7 +112,7 @@ export default function AboutUs({ ...rest }) {
           style={{
             color: '#FFF',
             textTransform: "none",
-            fontFamily:"Montserrat",
+            fontFamily:"Poppins",
             fontSize:"1.5rem",
             borderColor: 'black',
             border: '2px solid',

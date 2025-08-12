@@ -93,7 +93,7 @@ const projectsSection = {
     }
   },
   infoDescription: {
-    fontFamily: 'Montserrat',
+    fontFamily: 'Poppins',
     fontSize: '0.95rem',
     lineHeight: '1.5rem',
     fontWeight: 500,

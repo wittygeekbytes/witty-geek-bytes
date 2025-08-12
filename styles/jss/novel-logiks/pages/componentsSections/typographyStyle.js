@@ -28,7 +28,7 @@ const typographyStyle = {
     width: "100%"
   },
   note: {
-    fontFamily: 'Montserrat',
+    fontFamily: 'Poppins',
     bottom: "10px",
     color: grayColor[21],
     display: "block",

@@ -21,7 +21,7 @@ export default function SectionContactUs({ ...rest }) {
             <Typography
               variant="h4"
               sx={{
-                fontFamily: 'Montserrat',
+                fontFamily: 'Poppins',
                 fontWeight: 700,
                 color: '#112A46',
                 textAlign: { xs: 'center', md: 'left' }
@@ -40,7 +40,7 @@ export default function SectionContactUs({ ...rest }) {
 
           {/* Right Column (Card Style) */}
           <GridItem >
-            <Paper elevation={3} sx={{ p: 3, borderRadius: 3, backgroundColor: '#f9fafc' }}>
+            {/* <Paper elevation={3} sx={{ p: 3, borderRadius: 3, backgroundColor: '#f9fafc' }}> */}
               {/* Address */}
               {renderContactItem("/img/resized_imgs/contact-us-office.png", contactUs.address_lines)}
 
@@ -50,7 +50,7 @@ export default function SectionContactUs({ ...rest }) {
               {/* Phone */}
               {renderContactItem("/img/resized_imgs/contact-us-call.png", contactUs.phone_no)}
              
-            </Paper>
+            {/* </Paper> */}
           </GridItem>
         </GridContainer>
       </div>
@@ -82,7 +82,7 @@ function renderContactItem(iconSrc, lines) {
           <Typography
             key={i}
             sx={{
-              fontFamily: 'Montserrat',
+              fontFamily: 'Poppins',
               fontSize: '1rem',
               fontWeight: i === 0 ? 600 : 500,
               color: '#091133',

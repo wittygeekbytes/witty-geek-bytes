@@ -44,7 +44,7 @@ const SectionAboutUsCard = (props) => {
           <img src={aboutUs[index].serviceImageUrl} alt={aboutUs[index].serviceImageUrl} style={{ width: "4.375rem", height: "4.375rem", textAlign: "center", justifyContent: "center" }} />
         </GridItem>
         <h6 className={classes.cardCategory} style={{
-          fontFamily: 'Montserrat',
+          fontFamily: 'Poppins',
           fontSize: '1.5rem',
           lineHeight: '1.5rem',
           fontWeight: '600',

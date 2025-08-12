@@ -55,7 +55,7 @@ const mediaStyle = (theme) => ({
     marginTop: "10px",
     marginBottom: "10px",
     "& small": {
-      fontFamily: "Montserrat"
+      fontFamily: "Poppins"
     }
   },
   mediaFooter: {

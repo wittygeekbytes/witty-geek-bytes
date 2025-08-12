@@ -31,7 +31,7 @@ export default function SectionProducts({ ...rest }) {
         <GridContainer >
           <GridItem md={12} style={{ color: '#112A46' }}>
             <h1 style={{
-              fontFamily: 'Montserrat',
+              fontFamily: 'Poppins',
               fontSize: '1.75rem',
               lineHeight: '2rem',
               fontWeight: '600',
@@ -51,7 +51,7 @@ export default function SectionProducts({ ...rest }) {
                   classes.mlAuto + " " + classes.mrAuto + " " + classes.textCenter
                 }
               >
-                <h5 className={classes.description} style={{fontSize:"1.5rem", lineHeight : "2rem",fontWeight:"600", fontFamily:"Montserrat", color : "black"}}>
+                <h5 className={classes.description} style={{fontSize:"1.5rem", lineHeight : "2rem",fontWeight:"600", fontFamily:"Poppins", color : "black"}}>
                   We understood Who’s target buyer?what they need and What are their pain points? and we came up with a solution.
                 </h5>
                 <div className={classes.sectionSpace} />
@@ -61,7 +61,7 @@ export default function SectionProducts({ ...rest }) {
               <GridItem xs={12} sm={6} md={6} className={classes.mrAuto}>
                 <InfoArea
                   className={classes.info4} style={{
-                    fontFamily: 'Montserrat',
+                    fontFamily: 'Poppins',
                     fontSize: '1rem',
                     lineHeight: '1.5rem',
                     fontWeight: '500',
@@ -106,7 +106,7 @@ export default function SectionProducts({ ...rest }) {
               <GridItem xs={12} sm={6} md={6} className={classes.mlAuto}>
                 <InfoArea
                   className={classes.info4} style={{ 
-                    fontFamily: 'Montserrat',
+                    fontFamily: 'Poppins',
                     fontSize: '1rem',
                     lineHeight: '1.5rem',
                     fontWeight: '500',

@@ -22,7 +22,7 @@ const popoverStyles = {
     borderRadius: "3px",
     display: "block",
     maxWidth: "276px",
-    fontFamily: 'Montserrat',
+    fontFamily: 'Poppins',
     fontStyle: "normal",
     fontWeight: "400",
     textAlign: "start",

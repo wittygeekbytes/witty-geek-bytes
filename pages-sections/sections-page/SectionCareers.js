@@ -126,7 +126,7 @@ export default function SectionCareers({ ...rest }) {
                             color: "black",
                             fontSize: "1rem",
                             fontWeight: "550",
-                            fontFamily: "Montserrat",
+                            fontFamily: "Poppins",
                             marginLeft: "2em",
                             marginTop: "3em",
                           }}
@@ -141,7 +141,7 @@ export default function SectionCareers({ ...rest }) {
                             color: "black",
                             fontSize: "1rem",
                             fontWeight: "550",
-                            fontFamily: "Montserrat",
+                            fontFamily: "Poppins",
                             marginLeft: "2em",
                           }}
                         >
@@ -155,7 +155,7 @@ export default function SectionCareers({ ...rest }) {
                             color: "black",
                             fontSize: "1rem",
                             fontWeight: "550",
-                            fontFamily: "Montserrat",
+                            fontFamily: "Poppins",
                             marginLeft: "2em",
                           }}
                         >
@@ -169,7 +169,7 @@ export default function SectionCareers({ ...rest }) {
                             color: "black",
                             fontSize: "1rem",
                             fontWeight: "550",
-                            fontFamily: "Montserrat",
+                            fontFamily: "Poppins",
                             marginLeft: "2em",
                           }}
                         >
@@ -183,7 +183,7 @@ export default function SectionCareers({ ...rest }) {
                         color: "black",
                         fontSize: "1rem",
                         fontWeight: "550",
-                        fontFamily: "Montserrat",
+                        fontFamily: "Poppins",
                         marginLeft: "2em",
                       }}
                     >
@@ -199,7 +199,7 @@ export default function SectionCareers({ ...rest }) {
                               style={{
                                 color: "black",
                                 fontSize: "0.85rem",
-                                fontFamily: "Montserrat",
+                                fontFamily: "Poppins",
                                 marginLeft: "3em",
                               }}
                             >
@@ -217,7 +217,7 @@ export default function SectionCareers({ ...rest }) {
                           color: "black",
                           fontSize: "1rem",
                           fontWeight: "550",
-                          fontFamily: "Montserrat",
+                          fontFamily: "Poppins",
                           marginLeft: "2em",
                         }}
                       >
@@ -233,7 +233,7 @@ export default function SectionCareers({ ...rest }) {
                                 style={{
                                   color: "black",
                                   fontSize: "0.85rem",
-                                  fontFamily: "Montserrat",
+                                  fontFamily: "Poppins",
                                   marginLeft: "3em",
                                 }}
                               >
@@ -275,7 +275,7 @@ export default function SectionCareers({ ...rest }) {
             color: "black",
             fontSize: "1.25rem",
             lineHeight: "1em",
-            fontFamily: '"Montserrat"',
+            fontFamily: '"Poppins"',
           }}
         >
           No Positions Found.
@@ -291,7 +291,7 @@ export default function SectionCareers({ ...rest }) {
           <GridItem md={8} style={{ color: "#112A46" }}>
             <h1
               style={{
-                fontFamily: "Montserrat",
+                fontFamily: "Poppins",
                 fontSize: "2rem",
                 lineHeight: "1.25rem",
                 fontWeight: "600",
@@ -304,7 +304,7 @@ export default function SectionCareers({ ...rest }) {
             </h1>
             <Typography
               sx={{
-                fontFamily: "Montserrat",
+                fontFamily: "Poppins",
                 lineHeight: "1.25rem",
                 fontWeight: "600",
                 color: "#112A46",
@@ -327,7 +327,7 @@ export default function SectionCareers({ ...rest }) {
             </Typography>
             <Typography
               sx={{
-                fontFamily: "Montserrat",
+                fontFamily: "Poppins",
                 lineHeight: "1.25rem",
                 fontWeight: "500",
                 color: "#112A46",
@@ -350,7 +350,7 @@ export default function SectionCareers({ ...rest }) {
             </Typography>
             <Typography
               sx={{
-                fontFamily: "Montserrat",
+                fontFamily: "Poppins",
                 lineHeight: "1.25rem",
                 fontWeight: "500",
                 color: "#112A46",

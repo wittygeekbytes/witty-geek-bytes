@@ -48,7 +48,7 @@ export default function ServicesLeftComponent({ ...rest }) {
                         </GridItem>
                         <GridItem xs={12} sm={8} md={8}>
                             <h1 style={{
-                                fontFamily: 'Montserrat',
+                                fontFamily: 'Poppins',
                                 fontSize: '2rem',
                                 lineHeight: '2rem',
                                 fontWeight: '600',

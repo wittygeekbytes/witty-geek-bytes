@@ -29,7 +29,7 @@ const SectionIndustriesCarousalCard = (props)=> {
                 </CardHeader>
                 <CardBody plain>
                     <Typography style={{
-                        fontFamily: 'Montserrat',
+                        fontFamily: 'Poppins',
                         fontSize: '1.125rem',
                         lineHeight: '1.719rem',
                         fontWeight: '600',

@@ -206,7 +206,7 @@ export default function SectionsPage() {
                 <GridItem xs={12} sm={6} style={{ textAlign: "left" }}>
                   <Typography
                     style={{
-                      fontFamily: "Montserrat",
+                      fontFamily: "Poppins",
                       fontSize: "0.85rem",
                       fontWeight: "500",
                       color: "#555",

@@ -187,7 +187,7 @@ const card = {
 };
 
 const defaultFont = {
-  fontFamily: 'Montserrat',
+  fontFamily: 'Poppins',
   fontWeight: "300",
   lineHeight: "1.5em",
 };
@@ -333,7 +333,7 @@ const title = {
   marginTop: "30px",
   marginBottom: "25px",
   minHeight: "32px",
-  fontFamily: `"Montserrat"`,
+  fontFamily: `"Poppins"`,
 };
 const subtitle = {
   color: grayColor[0],
@@ -342,7 +342,7 @@ const subtitle = {
   marginTop: "30px",
   marginBottom: "25px",
   minHeight: "28px",
-  fontFamily: `"Montserrat"`,
+  fontFamily: `"Poppins"`,
 };
 
 const cardTitle = {

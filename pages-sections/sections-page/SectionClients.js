@@ -24,7 +24,7 @@ export default function SectionClients({ ...rest }) {
         <GridContainer style={{ marginBottom: '2rem', marginTop: '4rem' }}>
           <GridItem style={{ color: '#112A46' }}>
             <h1 style={{
-              fontFamily: 'Montserrat',
+              fontFamily: 'Poppins',
               fontSize: '2rem',
               lineHeight: '2rem',
               fontWeight: '600',

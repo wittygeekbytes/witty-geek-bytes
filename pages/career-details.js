@@ -87,44 +87,44 @@ export default function CareerDetails() {
             {/* <div xs={12} > */}
             <GridContainer style={{ marginTop: "2rem" }}>
               <GridItem xs={12} sm={12} md={12}>
-                <Typography style={{ color: "black", fontSize: "1rem", fontWeight: "550", fontFamily: 'Montserrat', marginLeft: "2em", marginTop: "3em" }}>
+                <Typography style={{ color: "black", fontSize: "1rem", fontWeight: "550", fontFamily: 'Poppins', marginLeft: "2em", marginTop: "3em" }}>
                   Job Title : {ser && ser.position}
                 </Typography>
               </GridItem>
               <GridItem xs={12} sm={12} md={12}>
-                <Typography component="div" style={{ color: "black", fontSize: "1rem", fontWeight: "550", fontFamily: 'Montserrat', marginLeft: "2em" }}>
+                <Typography component="div" style={{ color: "black", fontSize: "1rem", fontWeight: "550", fontFamily: 'Poppins', marginLeft: "2em" }}>
                   Experience : {ser && ser.experience}
                 </Typography>
               </GridItem>
               <GridItem xs={12} sm={12} md={12}>
-                <Typography component="div" style={{ color: "black", fontSize: "1rem", fontWeight: "550", fontFamily: 'Montserrat', marginLeft: "2em" }}>
+                <Typography component="div" style={{ color: "black", fontSize: "1rem", fontWeight: "550", fontFamily: 'Poppins', marginLeft: "2em" }}>
                   Employment Type : {ser && ser.employmentType}
                 </Typography>
               </GridItem>
               <GridItem xs={12} sm={12} md={12}>
-                <Typography component="div" style={{ color: "black", fontSize: "1rem", fontWeight: "550", fontFamily: 'Montserrat', marginLeft: "2em" }}>
+                <Typography component="div" style={{ color: "black", fontSize: "1rem", fontWeight: "550", fontFamily: 'Poppins', marginLeft: "2em" }}>
                   Location: {ser && ser.location}
                 </Typography>
               </GridItem>
 
             </GridContainer>
-            <Typography component="div" style={{ color: "black", fontSize: "1rem", fontWeight: "550", fontFamily: 'Montserrat', marginLeft: "2em" }}>
+            <Typography component="div" style={{ color: "black", fontSize: "1rem", fontWeight: "550", fontFamily: 'Poppins', marginLeft: "2em" }}>
               Role & Responsibilities :
             </Typography><br /> {ser.rolesResponsibilities.map((r, indx) => { 
               return (
                 <ul key={indx}>
-                  <li><Typography component="div" style={{ color: "black", fontSize: "0.85rem", fontFamily: 'Montserrat', marginLeft: "3em" }}>{r}</Typography></li>
+                  <li><Typography component="div" style={{ color: "black", fontSize: "0.85rem", fontFamily: 'Poppins', marginLeft: "3em" }}>{r}</Typography></li>
                 </ul>)
             }
             )
             }
             <br />
             <GridItem xs={12} sm={12} md={12}>
-              <Typography component="div" style={{ color: "black", fontSize: "1rem", fontWeight: "550", fontFamily: 'Montserrat', marginLeft: "2em" }}>
+              <Typography component="div" style={{ color: "black", fontSize: "1rem", fontWeight: "550", fontFamily: 'Poppins', marginLeft: "2em" }}>
                 Skillset :</Typography>  <br />  {ser.skillSet.map((r, indx) => {
                   return (
                     <ul key={indx}>
-                      <li><Typography component="div" style={{ color: "black", fontSize: "0.85rem", fontFamily: 'Montserrat', marginLeft: "3em" }}>{r}</Typography></li>
+                      <li><Typography component="div" style={{ color: "black", fontSize: "0.85rem", fontFamily: 'Poppins', marginLeft: "3em" }}>{r}</Typography></li>
                     </ul>)
                 }
                 )
@@ -142,7 +142,7 @@ export default function CareerDetails() {
     console.log("Exec No Data Found");
     return (
       <Paper sx={{ borderRadius: '10px', width: '90%', textAlign: "center", marginLeft: "auto", marginRight: "auto", marginTop: "2em", height: "5em" }} >
-        <Typography variant="h6" component="div" style={{ color: "black", fontSize: "1.25rem", lineHeight: '1em', fontFamily: '"Montserrat"' }}>
+        <Typography variant="h6" component="div" style={{ color: "black", fontSize: "1.25rem", lineHeight: '1em', fontFamily: '"Poppins"' }}>
           No Positions Found.
         </Typography>
       </Paper>
@@ -160,7 +160,7 @@ export default function CareerDetails() {
       <div style={{ marginTop: "5em" ,backgroundColor:"#FFFFFF"}}>
         <Paper sx={{ borderRadius: '10px', width: '90%', marginLeft: "auto", textAlign: 'center', justifyContent: 'center', alignItems: 'center', marginRight: "auto" }} >
           <GridItem item xs={12} style={{ marginTop: "5em" , marginBottom: "3em", textAlign: 'center', justifyContent: 'center', alignItems: 'center', width: '90%' }}>
-            <Typography style={{ color: "black", fontSize: "2.25rem", fontFamily: 'Montserrat', marginTop: "5em"  }}>
+            <Typography style={{ color: "black", fontSize: "2.25rem", fontFamily: 'Poppins', marginTop: "5em"  }}>
               Want to work with us?
             </Typography>
           </GridItem>
