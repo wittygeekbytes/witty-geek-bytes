@@ -26,7 +26,7 @@ import { Button, Divider, Typography } from "@mui/material";
 
 const useStyles = makeStyles(featuresStyle);
 
-export default function ServicesLeftComponent({ ...rest }) {
+export default function CoursesLeftComponent({ ...rest }) {
     const classes = useStyles();
     const {data }  = rest
     console.log('rest : ',rest);
@@ -35,7 +35,7 @@ export default function ServicesLeftComponent({ ...rest }) {
     return (
         <div className="cd-section" {...rest}>
             <div className={classes.container}>
-                {/* Services Left START */}
+                {/* Courses Left START */}
                 {/* <div className={classes.features3}>
                     <GridContainer>
                         <GridItem xs={12} sm={4} md={4}>

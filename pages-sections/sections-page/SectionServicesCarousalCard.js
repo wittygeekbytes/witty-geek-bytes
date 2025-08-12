@@ -54,6 +54,9 @@ const SectionServicesCarousalCard = (props)=> {
                         {services[index].serviceOneLiner}
                     </Typography>
                 </CardBody>
+                <CardFooter>
+                    <Button  style={{width : "100%", background:"#00C3CC" ,fontSize:"1rem", fontWeight:"400", borderRadius:"0.5rem"}} disabled = {!services[index].serviceTitle.startsWith("Front") }>KNOW MORE</Button>
+                </CardFooter>
             </Card>
         </GridItem>
     );

@@ -18,24 +18,26 @@ const routeToContactUs = () => {
   Router.push("/contact-us");
 }
 
-export default function SectionServices({ ...rest }) {
+export default function SectionCourses({ ...rest }) {
   const classes = useStyles();
-  console.log('Loaded Services data : ', services ? services.length : 0);
+  console.log('Loaded Courses data : ', services ? services.length : 0);
   return (
     <div className="cd-section" {...rest}>
       
       <div className={classes.container}>
         <GridContainer style={{ marginBottom: '.25rem' }}>
-          <GridItem md={6} style={{ color: '#112A46' }}>
-            <h1 style={{
-              fontFamily: 'Poppins',
-              fontSize: '2rem',
-              lineHeight: '2rem',
-              fontWeight: '600',
+          <GridItem md={6}  sx={{
+              fontFamily: "Poppins",
+              fontWeight: 800,
+              fontSize: { lg: "3rem", md: "3rem", sm: "2rem", xs: "2rem" },
+              lineHeight: { lg: "3.75rem", sm: "3rem", xs: "3rem" },
+              display: "inline-block",
+              maxWidth: "90%",
+              color: "#00C3CC",
               textAlign: "left",
-              color: '#112A46'
-            }}>  Services
-            </h1>
+            }}>
+           
+            Courses
           </GridItem>
         </GridContainer> 
         <SectionServicesCarousel/>

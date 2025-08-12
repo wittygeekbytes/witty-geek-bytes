@@ -5,7 +5,7 @@ export const linksData = [
     },
     {
         href: "/services",
-        title: "Services",
+        title: "Courses",
     },
     {
         href: "/about",

@@ -12,7 +12,7 @@ export const headerLinksData = {
     },
     {
         href: "/services-details",
-        title: "Services",
+        title: "Courses",
         smoothScroll:"services"
     },
     {

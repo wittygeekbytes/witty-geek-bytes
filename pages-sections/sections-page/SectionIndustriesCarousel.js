@@ -39,7 +39,7 @@ export default function SectionIndustriesCarousel() {
     slidesToScroll: 1,
     autoplay: true
   };
-  const showAllServices = ()=>{
+  const showAllCourses = ()=>{
     console.log("Routing to /service-details Page ");
     Router.push("/service-details");
   }
@@ -164,9 +164,9 @@ export default function SectionIndustriesCarousel() {
                 borderRadius:"0px",
                 fontWeight : "600"
               }}
-              onClick={showAllServices}
+              onClick={showAllCourses}
             >
-              Explore Services
+              Explore Courses
             </Button>
           </GridItem>
         </GridContainer>

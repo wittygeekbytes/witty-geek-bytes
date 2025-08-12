@@ -94,7 +94,7 @@ export default function HeaderLinks(props) {
             }}
             onClick={(e) => {
               setActiveItem(each.title); // Set the active menu item
-              if (each.title === "Services") Router.push(each.href);
+              if (each.title === "Courses") Router.push(each.href);
               else smoothScroll(e, each.smoothScroll);
             }}
           >

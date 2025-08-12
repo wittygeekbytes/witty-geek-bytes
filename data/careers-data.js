@@ -94,7 +94,7 @@ export const careersData = {
         employmentType: "Full Time",
         location: "Pune",
         rolesResponsibilities: [
-            "Lead the implementation and provide ongoing support for SAP MM modules, with a focus on Procure-to-Pay, Consumption-Based Planning, Purchasing, External Services, Inventory Management, Invoice Verification, Information System, Foreign Trade, and Electronic Data Interchange."
+            "Lead the implementation and provide ongoing support for SAP MM modules, with a focus on Procure-to-Pay, Consumption-Based Planning, Purchasing, External Courses, Inventory Management, Invoice Verification, Information System, Foreign Trade, and Electronic Data Interchange."
             , "Conduct thorough analysis of intricate business process requirements and devise suitable system solutions. Identify, interpret, validate, and document customer requirements."
             , "Organize workshops to gather comprehensive business requirements."
             , "Map client business processes, objectives, and requirements, and develop necessary product modifications to align with client needs."

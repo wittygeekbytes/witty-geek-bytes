@@ -42,7 +42,7 @@ export default function SectionHeaders({ ...rest }) {
                 <li ><h4>We decided to bring in our experience to drive business outcomes and partner with organizations with cutting edge technologies to position themselves to be market differentiators to customers  we serve. </h4></li>
                 <li ><h4>Our Network of tech experts , product owners are spread across geographies  to at best provide a near shore experience where required and with  significant talent capabilities spread across India.</h4></li>
                 <li><h4>We seek to be the partner of trust and execution in an ever changing world defined by  automation , artificial intelligence  and other  digital transformation avenues.</h4></li>
-                <li><h4>We also  are passionate about helping customers with set up of Global Business Services given our extensive work experience in setting up Global Captives prior to our entrepreneurial journey</h4></li>
+                <li><h4>We also  are passionate about helping customers with set up of Global Business Courses given our extensive work experience in setting up Global Captives prior to our entrepreneurial journey</h4></li>
                 <li><h4>To be a contributor to the futuristic amalgamation of cultures and boundaries   with humans across the globe, inspiring and improving lives.</h4></li>
               </ul>
               <br />

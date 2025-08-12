@@ -14,11 +14,11 @@ import { services } from "../data/services-data.js";
 
 const useStyles = makeStyles(headersStyle);
 
-export default function ServicesDetails({ ...rest }) {
+export default function CoursesDetails({ ...rest }) {
   const classes = useStyles();
-  console.log('Loaded Services data : ', services ? services.length : 0);
+  console.log('Loaded Courses data : ', services ? services.length : 0);
   return (
-    <> <h3>Services   </h3>
+    <> <h3>Courses   </h3>
       <Header
         brand=""
         links={<HeaderLinks dropdownHoverColor="info" />}
@@ -29,14 +29,17 @@ export default function ServicesDetails({ ...rest }) {
       <div className={classes.container} style={{ marginTop: "5.5em", backgroundColor:"" }}>
         <GridContainer style={{ marginBottom: '.25rem' }}>
           <GridItem md={6} style={{ color: '#112A46' }}>
-            <h1 style={{
-              fontFamily: 'Poppins',
-              fontSize: '2rem',
-              lineHeight: '2rem',
-              fontWeight: '600',
-              textAlign: "left",
-              color: "black",
-            }}>  Services
+            <h1 sx={{
+              fontFamily: "Poppins",
+              fontWeight: 800,
+              fontSize: { lg: "3rem", md: "3rem", sm: "2rem", xs: "2rem" },
+              lineHeight: { lg: "3.75rem", sm: "3rem", xs: "3rem" },
+              display: "inline-block",
+              maxWidth: "90%",
+              margin: "5rem",
+              color: "#00C3CC",
+              textAlign: "center",
+            }}>  Courses
             </h1>
           </GridItem>
         </GridContainer>

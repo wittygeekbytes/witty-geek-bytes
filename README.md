@@ -177,7 +177,7 @@ novel-logiks
     │   ├── SectionContact.js
     │   ├── SectionDescription.js
     │   ├── SectionOffice.js
-    │   ├── SectionServices.js
+    │   ├── SectionCourses.js
     │   └── SectionTeam.js
     ├── blog-post
     │   ├── SectionBlogInfo.js

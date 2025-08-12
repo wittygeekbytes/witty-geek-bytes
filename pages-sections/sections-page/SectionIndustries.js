@@ -18,7 +18,7 @@ const routeToContactUs = () => {
 
 export default function SectionIndustries({ ...rest }) {
   const classes = useStyles();
-  console.log('Loaded Services data : ', services ? services.length : 0);
+  console.log('Loaded Courses data : ', services ? services.length : 0);
   return (
     <div className="cd-section" {...rest}>
       <div className={classes.container}>

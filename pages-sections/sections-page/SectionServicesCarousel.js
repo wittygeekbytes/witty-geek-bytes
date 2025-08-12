@@ -19,7 +19,7 @@ const useStyles = makeStyles(featuresStyle);
 
 export default function SectionServicesCarousel() {
   const classes = useStyles();
-  console.log("Services Data : ", services)
+  console.log("Courses Data : ", services)
   const settings = {
     // dots: true,
     infinite: true,
@@ -28,7 +28,7 @@ export default function SectionServicesCarousel() {
     slidesToScroll: 1,
     autoplay: true
   };
-  const showAllServices = ()=>{
+  const showAllCourses = ()=>{
     console.log("Routing to /service-details Page ");
     Router.push("/service-details");
   }
