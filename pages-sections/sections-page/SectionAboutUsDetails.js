@@ -231,7 +231,7 @@ export default function SectionAboutUsDetails({ ...rest }) {
               display: "inline-block",
               maxWidth: "90%",
               margin: "5rem",
-              color: "#00C3CC",
+              color: "#000000",
               textAlign: "center",
             }}
           >
@@ -288,15 +288,29 @@ export default function SectionAboutUsDetails({ ...rest }) {
               sx={{
                 display: "flex",
                 alignItems: "flex-start",
-                gap: "0.5rem",
-                mb: 1.5,
+                gap: "0.6rem",
+                mb: 1,
               }}
             >
-              <CheckCircleIcon
-                sx={{ color: "#28a745", fontSize: "1.5rem", mt: "2px" }}
+              <Box
+                component="span"
+                sx={{
+                  width: "6px",
+                  height: "6px",
+                  backgroundColor: "#000", // bullet color
+                  borderRadius: "50%", // makes it circular
+                  mt: "8px", // align vertically with text
+                  flexShrink: 0,
+                }}
               />
-              <Typography component="span">
-                {" "}
+              <Typography
+                component="span"
+                sx={{
+                  fontSize: "1rem",
+                  lineHeight: "1.5rem",
+                  fontFamily: "Poppins",
+                }}
+              >
                 Learning React can feel overwhelming—outdated tutorials,
                 constant updates, and confusing concepts like Hooks, Context, or
                 Server Components.
@@ -306,48 +320,92 @@ export default function SectionAboutUsDetails({ ...rest }) {
               sx={{
                 display: "flex",
                 alignItems: "flex-start",
-                gap: "0.5rem",
-                mb: 1.5,
+                gap: "0.6rem",
+                mb: 1,
               }}
             >
-              <CheckCircleIcon
-                sx={{ color: "#28a745", fontSize: "1.5rem", mt: "2px" }}
+              <Box
+                component="span"
+                sx={{
+                  width: "6px",
+                  height: "6px",
+                  backgroundColor: "#000", // bullet color
+                  borderRadius: "50%", // makes it circular
+                  mt: "8px", // align vertically with text
+                  flexShrink: 0,
+                }}
               />
-              <Typography component="span">
-                {" "}
+              <Typography
+                component="span"
+                sx={{
+                  fontSize: "1rem",
+                  lineHeight: "1.5rem",
+                  fontFamily: "Poppins",
+                }}
+              >
                 You waste hours chasing fixes that take just one line of code,
                 losing time you could spend on things you enjoy.
               </Typography>
             </Box>
+
             <Box
               sx={{
                 display: "flex",
                 alignItems: "flex-start",
-                gap: "0.5rem",
-                mb: 1.5,
+                gap: "0.6rem",
+                mb: 1,
               }}
             >
-              <CheckCircleIcon
-                sx={{ color: "#28a745", fontSize: "1.5rem", mt: "2px" }}
+              <Box
+                component="span"
+                sx={{
+                  width: "6px",
+                  height: "6px",
+                  backgroundColor: "#000", // bullet color
+                  borderRadius: "50%", // makes it circular
+                  mt: "8px", // align vertically with text
+                  flexShrink: 0,
+                }}
               />
-              <Typography component="span">
-                {" "}
+              <Typography
+                component="span"
+                sx={{
+                  fontSize: "1rem",
+                  lineHeight: "1.5rem",
+                  fontFamily: "Poppins",
+                }}
+              >
                 It’s no wonder so many beginners give up—I almost did too.
               </Typography>
             </Box>
+
             <Box
               sx={{
                 display: "flex",
                 alignItems: "flex-start",
-                gap: "0.5rem",
-                mb: 1.5,
+                gap: "0.6rem",
+                mb: 1,
               }}
             >
-              <CheckCircleIcon
-                sx={{ color: "#28a745", fontSize: "1.5rem", mt: "2px" }}
+              <Box
+                component="span"
+                sx={{
+                  width: "6px",
+                  height: "6px",
+                  backgroundColor: "#000", // bullet color
+                  borderRadius: "50%", // makes it circular
+                  mt: "8px", // align vertically with text
+                  flexShrink: 0,
+                }}
               />
-              <Typography component="span">
-                {" "}
+              <Typography
+                component="span"
+                sx={{
+                  fontSize: "1rem",
+                  lineHeight: "1.5rem",
+                  fontFamily: "Poppins",
+                }}
+              >
                 I’ve had moments thinking, “Maybe I’m not cut out for this.”
               </Typography>
             </Box>
@@ -377,32 +435,61 @@ export default function SectionAboutUsDetails({ ...rest }) {
               sx={{
                 display: "flex",
                 alignItems: "flex-start",
-                gap: "0.5rem",
-                mb: 1.5,
+                gap: "0.6rem",
+                mb: 1,
               }}
             >
-              <CheckCircleIcon
-                sx={{ color: "#28a745", fontSize: "1.5rem", mt: "2px" }}
+              <Box
+                component="span"
+                sx={{
+                  width: "6px",
+                  height: "6px",
+                  backgroundColor: "#000", // bullet color
+                  borderRadius: "50%", // makes it circular
+                  mt: "8px", // align vertically with text
+                  flexShrink: 0,
+                }}
               />
-              <Typography component="span">
-                {" "}
+              <Typography
+                component="span"
+                sx={{
+                  fontSize: "1rem",
+                  lineHeight: "1.5rem",
+                  fontFamily: "Poppins",
+                }}
+              >
                 I’d walk away from coding for weeks—not from lack of passion,
                 but from mental exhaustion.
               </Typography>
             </Box>
+
             <Box
               sx={{
                 display: "flex",
                 alignItems: "flex-start",
-                gap: "0.5rem",
-                mb: 1.5,
+                gap: "0.6rem",
+                mb: 1,
               }}
             >
-              <CheckCircleIcon
-                sx={{ color: "#28a745", fontSize: "1.5rem", mt: "2px" }}
+              <Box
+                component="span"
+                sx={{
+                  width: "6px",
+                  height: "6px",
+                  backgroundColor: "#000", // bullet color
+                  borderRadius: "50%", // makes it circular
+                  mt: "8px", // align vertically with text
+                  flexShrink: 0,
+                }}
               />
-              <Typography component="span">
-                {" "}
+              <Typography
+                component="span"
+                sx={{
+                  fontSize: "1rem",
+                  lineHeight: "1.5rem",
+                  fontFamily: "Poppins",
+                }}
+              >
                 What I needed was a clear, structured roadmap—step-by-step
                 guidance with modern, working examples for 2025. Something to
                 save me months (or years) of frustration.
@@ -412,31 +499,91 @@ export default function SectionAboutUsDetails({ ...rest }) {
               sx={{
                 display: "flex",
                 alignItems: "flex-start",
-                gap: "0.5rem",
-                mb: 1.5,
+                gap: "0.6rem",
+                mb: 1,
               }}
             >
-              <CheckCircleIcon
-                sx={{ color: "#28a745", fontSize: "1.5rem", mt: "2px" }}
+              <Box
+                component="span"
+                sx={{
+                  width: "6px",
+                  height: "6px",
+                  backgroundColor: "#000", // bullet color
+                  borderRadius: "50%", // makes it circular
+                  mt: "8px", // align vertically with text
+                  flexShrink: 0,
+                }}
               />
-              <Typography component="span">
-                {" "}
+              <Typography
+                component="span"
+                sx={{
+                  fontSize: "1rem",
+                  lineHeight: "1.5rem",
+                  fontFamily: "Poppins",
+                }}
+              >
                 If you’re stuck in the React learning loop, I’ve been there.
               </Typography>
             </Box>
+
             <Box
               sx={{
                 display: "flex",
                 alignItems: "flex-start",
-                gap: "0.5rem",
-                mb: 1.5,
+                gap: "0.6rem",
+                mb: 1,
               }}
             >
-              <CheckCircleIcon
-                sx={{ color: "#28a745", fontSize: "1.5rem", mt: "2px" }}
+              <Box
+                component="span"
+                sx={{
+                  width: "6px",
+                  height: "6px",
+                  backgroundColor: "#000", // bullet color
+                  borderRadius: "50%", // makes it circular
+                  mt: "8px", // align vertically with text
+                  flexShrink: 0,
+                }}
               />
-              <Typography component="span">
-                {" "}
+              <Typography
+                component="span"
+                sx={{
+                  fontSize: "1rem",
+                  lineHeight: "1.5rem",
+                  fontFamily: "Poppins",
+                }}
+              >
+                If you’re stuck in the React learning loop, I’ve been there.
+              </Typography>
+            </Box>
+
+            <Box
+              sx={{
+                display: "flex",
+                alignItems: "flex-start",
+                gap: "0.6rem",
+                mb: 1,
+              }}
+            >
+              <Box
+                component="span"
+                sx={{
+                  width: "6px",
+                  height: "6px",
+                  backgroundColor: "#000", // bullet color
+                  borderRadius: "50%", // makes it circular
+                  mt: "8px", // align vertically with text
+                  flexShrink: 0,
+                }}
+              />
+              <Typography
+                component="span"
+                sx={{
+                  fontSize: "1rem",
+                  lineHeight: "1.5rem",
+                  fontFamily: "Poppins",
+                }}
+              >
                 The way forward starts with the right path.
               </Typography>
             </Box>
@@ -480,31 +627,131 @@ export default function SectionAboutUsDetails({ ...rest }) {
                 />
               </GridItem>
               <GridItem xs={12} sm={8} md={9}>
-                Sunil has over 15 years of extensive experience in Java,
-                JavaScript, React.js, Python, and AWS—coupled with hands-on
-                implementation across diverse domains and top-tier
-                organizations.
-                <br />
-                I have crafted these courses to deliver clear, practical, and
-                impactful learning.
-                <br />
-                This course is structured to provide in-depth insights into each
-                topic, enriched with hands-on exercises, quizzes, and real-world
-                examples to help learners gain confidence and mastery with ease.
-                <br />
-                Every topic is carefully curated to align with the latest
-                industry standards.
-                <br />
-                I specialize in helping developers who struggle with
-                understanding complex concepts or face challenges applying them
-                effectively in their workplace often leading to missed
-                expectations or underperformance. <br />
-                I also assist job seekers who find it difficult to crack
-                technical interviews and secure their desired roles. <br />
-                My goal is to bridge the gap between theory and practical
-                application, empowering learners to excel in their careers with
-                confidence.
-                <br />
+                <Box
+                  sx={{
+                    display: "flex",
+                    alignItems: "flex-start",
+                    gap: "0.5rem",
+                    mb: 1.5,
+                  }}
+                >
+                  <CheckCircleIcon
+                    sx={{ color: "#28a745", fontSize: "1.5rem", mt: "2px" }}
+                  />
+                  <Typography component="span">
+                    Sunil has over 15 years of extensive experience in Java,
+                    JavaScript, React.js, Python, and AWS—coupled with hands-on
+                    implementation across diverse domains and top-tier
+                    organizations.
+                  </Typography>
+                </Box>
+                <Box
+                  sx={{
+                    display: "flex",
+                    alignItems: "flex-start",
+                    gap: "0.5rem",
+                    mb: 1.5,
+                  }}
+                >
+                  <CheckCircleIcon
+                    sx={{ color: "#28a745", fontSize: "1.5rem", mt: "2px" }}
+                  />
+                  <Typography component="span">
+                    I have crafted these courses to deliver clear, practical,
+                    and impactful learning.
+                  </Typography>
+                </Box>
+                <Box
+                  sx={{
+                    display: "flex",
+                    alignItems: "flex-start",
+                    gap: "0.5rem",
+                    mb: 1.5,
+                  }}
+                >
+                  <CheckCircleIcon
+                    sx={{ color: "#28a745", fontSize: "1.5rem", mt: "2px" }}
+                  />
+                  <Typography component="span">
+                    {" "}
+                    This course is structured to provide in-depth insights into
+                    each topic, enriched with hands-on exercises, quizzes, and
+                    real-world examples to help learners gain confidence and
+                    mastery with ease.
+                  </Typography>
+                </Box>
+
+                <Box
+                  sx={{
+                    display: "flex",
+                    alignItems: "flex-start",
+                    gap: "0.5rem",
+                    mb: 1.5,
+                  }}
+                >
+                  <CheckCircleIcon
+                    sx={{ color: "#28a745", fontSize: "1.5rem", mt: "2px" }}
+                  />
+                  <Typography component="span">
+                    {" "}
+                    Every topic is carefully curated to align with the latest
+                    industry standards.
+                  </Typography>
+                </Box>
+                <Box
+                  sx={{
+                    display: "flex",
+                    alignItems: "flex-start",
+                    gap: "0.5rem",
+                    mb: 1.5,
+                  }}
+                >
+                  <CheckCircleIcon
+                    sx={{ color: "#28a745", fontSize: "1.5rem", mt: "2px" }}
+                  />
+                  <Typography component="span">
+                    {" "}
+                    I specialize in helping developers who struggle with
+                    understanding complex concepts or face challenges applying
+                    them effectively in their workplace often leading to missed
+                    expectations or underperformance.
+                  </Typography>
+                </Box>
+                <Box
+                  sx={{
+                    display: "flex",
+                    alignItems: "flex-start",
+                    gap: "0.5rem",
+                    mb: 1.5,
+                  }}
+                >
+                  <CheckCircleIcon
+                    sx={{ color: "#28a745", fontSize: "1.5rem", mt: "2px" }}
+                  />
+                  <Typography component="span">
+                    {" "}
+                    I also assist job seekers who find it difficult to crack
+                    technical interviews and secure their desired roles.
+                  </Typography>
+                </Box>
+                <Box
+                  sx={{
+                    display: "flex",
+                    alignItems: "flex-start",
+                    gap: "0.5rem",
+                    mb: 1.5,
+                  }}
+                >
+                  <CheckCircleIcon
+                    sx={{ color: "#28a745", fontSize: "1.5rem", mt: "2px" }}
+                  />
+                  <Typography component="span">
+                    {" "}
+                    My goal is to bridge the gap between theory and practical
+                    application, empowering learners to excel in their careers
+                    with confidence.
+                  </Typography>
+                </Box>
               </GridItem>
             </GridContainer>
           </Grid>

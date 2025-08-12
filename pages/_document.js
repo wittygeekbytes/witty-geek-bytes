@@ -10,7 +10,7 @@ class MyDocument extends Document {
           <meta charSet="utf-8" />
           <meta name="theme-color" content="#000000" />
           <meta name="description" content="Witty Geek Bytes Technologies | Digital Transformation"></meta>
-          <link rel="shortcut icon" href="/img/latest/wgb-logo.png" />
+          <link rel="shortcut icon" href="/img/latest/wgb-logo-ver2.png" />
           <link
             rel="apple-touch-icon"
             sizes="76x76"

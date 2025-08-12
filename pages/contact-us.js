@@ -69,7 +69,7 @@
 //             <GridContainer>
 //               <GridItem md={12} style={{ textAlign: "center", justifyContent: "center" }} >
 //                 <img
-//                   src="img/resized_imgs/wgb-logo.png"
+//                   src="img/resized_imgs/wgb-logo-ver2.png"
 //                   alt="ai pic"
 //                   style={{ width: '50%' }}
 //                 />
@@ -205,7 +205,7 @@ export default function ContactUsPage() {
           {/* Right Column - Image */}
           <GridItem md={6} xs={12} style={{ textAlign: "center" }}>
             <img
-              src="img/resized_imgs/wgb-logo.png"
+              src="img/resized_imgs/wgb-logo-ver2.png"
               alt="Witty Geek Bytes Logo"
               style={{
                 width: "70%",

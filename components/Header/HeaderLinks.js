@@ -63,15 +63,15 @@ export default function HeaderLinks(props) {
   return (
     <>
       <img
-        src="/img/resized_imgs/wgb-logo.png"
+        src="/img/resized_imgs/wgb-logo-ver2.png"
         alt="novellogiks"
         style={{ width: "3rem", height: "3rem" ,marginRight:"1rem"}}
       />
       <div>
         <img
-          src="/img/resized_imgs/wgb-title.png"
+          src="/img/resized_imgs/wgb-final-title.png"
           alt="Witty Geek Bytes"
-          style={{ width: "12rem", height:"4rem"}}
+          style={{ width: "12rem"}}
         />
       </div>
       <span style={{ marginLeft: "auto", marginRight: "1.5rem" }}></span>

@@ -27,7 +27,7 @@ export default function SectionServices({ ...rest }) {
               lineHeight: { lg: "3.75rem", sm: "3rem", xs: "3rem" },
               display: "inline-block",
               maxWidth: "90%",
-              color: "#00C3CC",
+              color: "#000000",
               textAlign: "left",
             }}>
            

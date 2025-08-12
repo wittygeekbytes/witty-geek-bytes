@@ -106,7 +106,7 @@ WebkitBackgroundClip: "text",
               fontWeight: 800,
               fontSize: { lg: "3rem", md: "3rem", sm: "2rem", xs: "2rem" },
               lineHeight: { lg: "3.75rem", sm: "3rem", xs: "3rem" },
-              backgroundColor: "#71DCE3",
+              backgroundColor: "#FFFFFF",
               WebkitBackgroundClip: "text",
               WebkitTextFillColor: "transparent",
               display: "inline-block",
@@ -145,46 +145,6 @@ WebkitBackgroundClip: "text",
             />
             </Typography>
           </Box>
-          {/* <Button
-            variant="contained"
-            onClick={routeToAiDetails}
-            sx={{
-              textTransform: "none",
-              color: "#FFFFFF",
-              borderRadius: "5px",
-              fontSize: "1.25rem",
-              height: "2.5rem",
-              fontWeight: 600,
-              width: { lg: "10rem", xs: "12.5rem" },
-              background: "linear-gradient(135deg, #00C1CC 0%, #6B31ED 100%)",
-              boxShadow: "0 4px 12px rgba(0, 0, 0, 0.2)",
-              "&:hover": {
-                background:
-                  "linear-gradient(to right, #6B31ED 0%, #00C1CC  51%, #6B31ED  100%)",
-                boxShadow: "0 6px 15px rgba(0, 0, 0, 0.25)",
-              },
-            }}
-          >
-            Explore
-          </Button> */}
-           {/* <Box
-            sx={{
-              fontFamily: "Poppins",
-              fontWeight: 600,
-              fontSize: { lg: "3rem", sm: "2rem", xs: "2rem" },
-              lineHeight: { lg: "3.75rem", sm: "3rem", xs: "3rem" },
-              backgroundColor: "#71DCE3",
-              WebkitBackgroundClip: "text",
-              WebkitTextFillColor: "transparent",
-              display: "inline-block",
-              maxWidth: "90%",
-              mb: 2,
-              textAlign: "left",
-            }}
-          >
-            Master the art of building blazing-fast, high-performance React.js applications.
-            <br />
-          </Box> */}
         </Box>
       </Box>
     </div>

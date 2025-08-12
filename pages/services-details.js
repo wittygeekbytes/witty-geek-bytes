@@ -37,7 +37,7 @@ export default function CoursesDetails({ ...rest }) {
               display: "inline-block",
               maxWidth: "90%",
               margin: "5rem",
-              color: "#00C3CC",
+              color: "#000000",
               textAlign: "center",
             }}>  Courses
             </h1>
