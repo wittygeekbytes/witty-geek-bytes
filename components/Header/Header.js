@@ -74,7 +74,7 @@ export default function Header(props) {
         </Hidden>
         <Hidden mdUp>
           <div >
-            <img src="/img/logo/wbg-title.png" alt="Witty Geek Bytes" style={{ width: "12rem", height:"4rem" }} />
+            <img src="/img/resized_imgs/wgb-title.png" alt="Witty Geek Bytes" style={{ width: "12rem", height:"4rem" }} />
           </div> 
         </Hidden>
         <Hidden mdUp>
