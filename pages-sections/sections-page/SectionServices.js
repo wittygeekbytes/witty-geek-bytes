@@ -10,15 +10,9 @@ import { Typography, Divider, Button, Box } from "@mui/material";
 import { services } from "../../data/services-data";
 import SectionServicesCarousel from "./SectionServicesCarousel";
 const useStyles = makeStyles(headersStyle);
-const routeToAiDetails = () => {
-  Router.push("/ai-details");
-}
 
-const routeToContactUs = () => {
-  Router.push("/contact-us");
-}
 
-export default function SectionCourses({ ...rest }) {
+export default function SectionServices({ ...rest }) {
   const classes = useStyles();
   console.log('Loaded Courses data : ', services ? services.length : 0);
   return (

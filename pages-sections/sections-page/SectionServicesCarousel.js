@@ -28,15 +28,6 @@ export default function SectionServicesCarousel() {
     slidesToScroll: 1,
     autoplay: true
   };
-  const showAllCourses = ()=>{
-    console.log("Routing to /service-details Page ");
-    Router.push("/service-details");
-  }
-
-  const routeToContactUs = ()=>{
-    console.log("Routing to /contactUs Page ");
-    Router.push("/sections#contactUs");
-  }
   
   return (
     <>
@@ -49,24 +40,10 @@ export default function SectionServicesCarousel() {
       />
       <div className={classes.container}>
         <Carousel {...settings}>
-          {/* <div >
-            <GridContainer>
-             <SectionServicesCarousalCard index ={0}/>
-             <SectionServicesCarousalCard index ={1}/>
-             <SectionServicesCarousalCard index ={2}/>
-            </GridContainer>
-          </div>
-          <div >
-            <GridContainer>
-              <SectionServicesCarousalCard index ={3}/>
-             <SectionServicesCarousalCard index ={4}/>
-             <SectionServicesCarousalCard index ={5}/>
-            </GridContainer>
-          </div> */}
+         
            <div >
             <GridContainer>
-              {services.map((each,index)=> <SectionServicesCarousalCard index ={index}/>)}
-             {/* <SectionServicesCarousalCard index ={0}/> */}
+              {services.map((each,index)=> <SectionServicesCarousalCard key = {index} index ={index}/>)}
             </GridContainer>
           </div>
        

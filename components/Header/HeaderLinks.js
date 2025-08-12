@@ -76,7 +76,7 @@ export default function HeaderLinks(props) {
       </div>
       <span style={{ marginLeft: "auto", marginRight: "1.5rem" }}></span>
       {links.map((each) => (
-        <Link href={each.href}>
+        <Link href={each.href} key={each.title}>
           <a
             className={classes.dropdownLink}
             style={{
@@ -94,8 +94,9 @@ export default function HeaderLinks(props) {
             }}
             onClick={(e) => {
               setActiveItem(each.title); // Set the active menu item
-              if (each.title === "Courses") Router.push(each.href);
-              else smoothScroll(e, each.smoothScroll);
+              smoothScroll(e, each.smoothScroll);
+              // if (each.title === "Courses") Router.push(each.href);
+              // else smoothScroll(e, each.smoothScroll);
             }}
           >
             <span style={{ whiteSpace: "nowrap", lineHeight: "2rem" }}>

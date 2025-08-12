@@ -11,7 +11,8 @@ export const headerLinksData = {
         smoothScroll:"about-us"
     },
     {
-        href: "/services-details",
+        // href: "/services-details",
+        href: "/sections#services",
         title: "Courses",
         smoothScroll:"services"
     },

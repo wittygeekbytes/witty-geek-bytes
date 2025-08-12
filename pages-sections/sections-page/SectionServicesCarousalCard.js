@@ -1,11 +1,5 @@
 /*eslint-disable*/
-import React from "react";
-import makeStyles from "@mui/styles/makeStyles";
-import GridContainer from "/components/Grid/GridContainer.js";
 import GridItem from "/components/Grid/GridItem.js";
-import headersStyle from "/styles/jss/novel-logiks/pages/sectionsSections/headersStyle.js";
-import featuresStyle from "/styles/jss/novel-logiks/pages/sectionsSections/featuresStyle.js";
-
 import Card from "/components/Card/Card.js";
 import CardBody from "/components/Card/CardBody.js";
 import CardHeader from "/components/Card/CardHeader.js";
@@ -14,7 +8,6 @@ import Button from "/components/CustomButtons/Button.js";
 import { services } from "../../data/services-data";
 import { Typography } from "@mui/material";
 
-const useStyles = makeStyles(featuresStyle);
 
 const SectionServicesCarousalCard = (props)=> { 
     console.log("props Passed to Carousal Card : ",props);
@@ -22,7 +15,6 @@ const SectionServicesCarousalCard = (props)=> {
     console.log("props Passed to Carousal Card : ",index);
     return (
         <GridItem xs={12} sm={6} md={4}>
-            {/* <Card plain blog style={{ background: "#0D47A1", borderColor: "#0D47A1", borderStyle: "solid", borderWidth: "medium" }}> */}
             <Card plain blog>
                 <CardHeader plain image>
                     <img src={services[index].serviceImageUrl} alt="..." style={{ height: "15rem"}} />

@@ -4,19 +4,12 @@ export const linksData = [
         title: "Home",
     },
     {
-        href: "/services",
+        href: "/sections#services",
         title: "Courses",
     },
     {
         href: "/about",
         title: "About",
     },
-    {
-        href: "/team",
-        title: "Team",
-    },
-    {
-        href: "/careers",
-        title: "Careers",
-    },
+    
 ];

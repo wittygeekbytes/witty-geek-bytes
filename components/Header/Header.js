@@ -1,5 +1,4 @@
 import React , {useState} from "react";
-import Link from "next/link";
 // nodejs library that concatenates classes
 import classNames from "classnames";
 // nodejs library to set properties for components
@@ -16,8 +15,6 @@ import Close from "@mui/icons-material/Close";
 // core components
 import styles from "/styles/jss/novel-logiks/components/headerStyle.js";
 import { Button, Typography } from "@mui/material";
-// import Button from "/components/CustomButtons/Button.js";
-import Router from "next/router";
 
 const useStyles = makeStyles(styles);
 
@@ -34,10 +31,6 @@ export default function Header(props) {
       }
     };
   });
-
-  const routeToContactUs = () => {
-    Router.push("/sections#contactUs");
-  }
 
   const handleDrawerToggle = () => {
     setMobileOpen(!mobileOpen);
