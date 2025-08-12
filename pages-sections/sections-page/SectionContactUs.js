@@ -13,10 +13,10 @@ export default function SectionContactUs({ ...rest }) {
   const classes = useStyles();
 
   return (
-    <div className="cd-section" {...rest}>
-      <div className={classes.container}>
+    <div className="cd-section" {...rest} style={{color: '#112A46'}}>
+      <div className={classes.container} style={{color: '#112A46'}}>
         {/* Title Section */}
-        <GridContainer sx={{ mb: 4, mt: 6 }}>
+        <GridContainer sx={{ mb: 4, mt: 6 }} >
           <GridItem md={6}>
             <Typography
               variant="h4"

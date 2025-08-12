@@ -6,7 +6,7 @@ import headersStyle from "../../styles/jss/novel-logiks/pages/sectionsSections/h
 import Card from "../../components/Card/Card.js";
 import CardBody from "../../components/Card/CardBody.js";
 import Grid from "@mui/material/Grid";
-import { useMediaQuery } from "@mui/material";
+import { Box, useMediaQuery } from "@mui/material";
 const useStyles = makeStyles(headersStyle);
 
 export default function SectionAboutUsDetails({ ...rest }) {
@@ -17,19 +17,17 @@ export default function SectionAboutUsDetails({ ...rest }) {
 
   return (
     <div className="cd-section" {...rest}>
-      <div
-        className={classes.container}
-      >
+      <div className={classes.container}>
         <GridContainer>
           <GridItem xs={12} sm={4} md={4}>
             <Card
               blog
               style={{
-                minHeight: "15rem",
-                height: "15rem",
-                backgroundColor: "#6B31ED",
+                minHeight: "20rem",
+                height: "20rem",
+                backgroundColor: "#6B2FED",
                 backgroundImage:
-                  "linear-gradient(45deg, #6B31ED 0%, #00C1CC 100%)",
+                  "linear-gradient(45deg, #6B2FED 0%, #71DCE3 100%)",
               }}
             >
               <CardBody>
@@ -52,11 +50,11 @@ export default function SectionAboutUsDetails({ ...rest }) {
                     }}
                   >
                     <img
-                      src="/img/resized_imgs/mission.png"
+                      src="/img/resized_imgs/away_from_crowd.jpg"
                       alt="..."
                       style={{
-                        width: "2rem",
-                        height: "2rem",
+                        width: "4rem",
+                        height: "4rem",
                         textAlign: "center",
                         justifyContent: "center",
                         color: "white",
@@ -65,32 +63,23 @@ export default function SectionAboutUsDetails({ ...rest }) {
                     />
                   </a>
                 </GridItem>
-                <h6
-                  className={classes.cardCategory}
-                  style={{
-                    fontFamily: "Montserrat",
-                    fontSize: "1.25rem",
-                    lineHeight: "1.25rem",
-                    fontWeight: "600",
-                    textAlign: "center",
-                    color: "#FFFFFF",
-                  }}
-                >
-                  Vision
-                </h6>
+                
                 <h4
                   style={{
                     fontFamily: "Montserrat",
-                    fontSize: "1rem",
-                    lineHeight: "1.15rem",
-                    fontWeight: "500",
-                    textAlign: "center",
+                   fontSize: "1rem",
+                    lineHeight: "1.5rem",
+                    fontWeight: "600",
+                    textAlign: "left",
                     color: "#FFFFFF",
                   }}
                 >
                   <Grid container>
                     <Grid item xs={12}>
-                      From Zero to Job-Ready , With You All the Way.
+                      Master the art of building blazing-fast, high-performance React.js applications.
+                    </Grid>
+                    <Grid item xs={12}>
+                      Become the go-to expert for creating powerful React.js applications.
                     </Grid>
                   </Grid>
                 </h4>
@@ -101,11 +90,11 @@ export default function SectionAboutUsDetails({ ...rest }) {
             <Card
               blog
               style={{
-                minHeight: "15rem",
-                height: "15rem",
-                backgroundColor: "#00C1CC",
+                minHeight: "20rem",
+                height: "20rem",
+                backgroundColor: "#71DCE3",
                 backgroundImage:
-                 "linear-gradient(45deg, #00C1CC 0%, #6B31ED 100%)",
+                  "linear-gradient(45deg, #71DCE3 0%, #6B2FED 100%)",
               }}
             >
               <CardBody>
@@ -127,44 +116,36 @@ export default function SectionAboutUsDetails({ ...rest }) {
                     }}
                   >
                     <img
-                      src="/img/resized_imgs/mission.png"
+                      src="/img/resized_imgs/high_pay.jpg"
                       alt="..."
                       style={{
-                        width: "2rem",
-                        height: "2rem",
+                        width: "4rem",
+                        height: "4rem",
                         textAlign: "center",
                         justifyContent: "center",
                       }}
                     />
                   </a>
                 </GridItem>
-                <h6
-                  className={classes.cardCategory}
-                  style={{
-                    fontFamily: "Montserrat",
-                    fontSize: "1.25rem",
-                    lineHeight: "1.25rem",
-                    fontWeight: "600",
-                    textAlign: "center",
-                    color: "#FFFFFF",
-                  }}
-                >
-                  {" "}
-                  Mission
-                </h6>
                 <h4
                   style={{
                     fontFamily: "Montserrat",
                     fontSize: "1rem",
-                    lineHeight: "1.15rem",
-                    fontWeight: "500",
-                    textAlign: "center",
+                    lineHeight: "1.5rem",
+                    fontWeight: "600",
+                    textAlign: "left",
                     color: "#FFFFFF",
                   }}
                 >
                   <Grid container>
                     <Grid item xs={12}>
-                      In Depth knowledge , Interview preparation, Quizes, Weekend live Webinar
+                      Work from anywhere, live on your terms, and earn a 6-figure income with React.js. 
+                    </Grid>
+                    <Grid item xs={12}>
+                      Skilled React developers are in high demand.
+                    </Grid>
+                    <Grid item xs={12}>
+                      Master the craft of building powerful apps, and your financial freedom is just the beginning.
                     </Grid>
                   </Grid>
                 </h4>
@@ -175,11 +156,11 @@ export default function SectionAboutUsDetails({ ...rest }) {
             <Card
               blog
               style={{
-                minHeight: "15rem",
-                height: "15rem",
-                backgroundColor: "#6B31ED",
+                minHeight: "20rem",
+                height: "20rem",
+                backgroundColor: "#6B2FED",
                 backgroundImage:
-               "linear-gradient(45deg, #6B31ED 0%, #00C1CC 100%)",
+                  "linear-gradient(45deg, #6B2FED 0%, #71DCE3 100%)",
               }}
             >
               <CardBody>
@@ -201,47 +182,39 @@ export default function SectionAboutUsDetails({ ...rest }) {
                     }}
                   >
                     <img
-                      src="/img/resized_imgs/mission.png"
+                      src="/img/resized_imgs/high_demand.jpg"
                       alt="..."
                       style={{
-                        width: "2rem",
-                        height: "2rem",
+                        width: "4rem",
+                        height: "4rem",
                         textAlign: "center",
                         justifyContent: "center",
                       }}
                     />
                   </a>
                 </GridItem>
-                <h6
-                  className={classes.cardCategory}
-                  style={{
-                    fontFamily: "Montserrat",
-                    fontSize: "1.25rem",
-                    lineHeight: "1.25rem",
-                    fontWeight: "600",
-                    textAlign: "center",
-                    color: "#FFFFFF",
-                  }}
-                >
-                  {" "}
-                  Values
-                </h6>
                 <h4
                   style={{
                     fontFamily: "Montserrat",
                     fontSize: "1rem",
-                    lineHeight: "1.15rem",
-                    fontWeight: "500",
-                    textAlign: "center",
+                    lineHeight: "1.5rem",
+                    fontWeight: "600",
+                    textAlign: "left",
                     color: "#FFFFFF",
                   }}
                 >
                   <Grid container>
                     <Grid item xs={12}>
-                     Focus & Discipline
-                     Dedicate & Respect Time,
-                     Setting up Targets,
-                     Continuous Learning
+                      Focus & Discipline 
+                    </Grid>
+                    <Grid item xs={12}>
+                      Dedicate & Respect Time
+                    </Grid>
+                    <Grid item xs={12}>
+                      Setting up Targets
+                    </Grid>
+                    <Grid item xs={12}>
+                      Continuous Learning
                     </Grid>
                   </Grid>
                 </h4>

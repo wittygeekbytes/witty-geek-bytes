@@ -70,14 +70,13 @@ export default function SectionHeaders(props) {
           }}
         >
           {/* Animated Gradient Text */}
-          <Box
+          {/* <Box
             sx={{
               fontFamily: "Montserrat",
               fontWeight: 600,
               fontSize: { lg: "3.5rem", sm: "2rem", xs: "2rem" },
               lineHeight: { lg: "4.125rem", sm: "3rem", xs: "3rem" },
               backgroundColor: 'white',
-              // backgroundImage: 'linear-gradient(180deg, #FFE53B 0%, #FF2525 78%)',
 WebkitBackgroundClip: "text",
               WebkitTextFillColor: "transparent",
               display: "inline-block",
@@ -100,8 +99,53 @@ WebkitBackgroundClip: "text",
               deletionSpeed={30}
               wrapper="span"
             />
+          </Box> */}
+          <Box
+            sx={{
+              fontFamily: "Montserrat",
+              fontWeight: 600,
+              fontSize: { lg: "3rem", md: "3rem", sm: "2rem", xs: "2rem" },
+              lineHeight: { lg: "3.75rem", sm: "3rem", xs: "3rem" },
+              backgroundColor: "#71DCE3",
+              WebkitBackgroundClip: "text",
+              WebkitTextFillColor: "transparent",
+              display: "inline-block",
+              maxWidth: "90%",
+              mb: 2,
+              textAlign: "left",
+            }}
+          >
+            Proven strategies to attract top tech offers no more wasting weeks
+            decoding scattered blogs , outdated Youtube Videos and docs.
+            <br />
+            <Typography
+              sx={{
+                fontFamily: "Montserrat",
+                fontWeight: 500,
+                fontSize: { lg: "1.5rem", sm: "1.25rem", xs: "1rem" },
+                lineHeight: { lg: "2.75rem", sm: "3rem", xs: "3rem" },
+                backgroundColor: "white",
+                WebkitBackgroundClip: "text",
+                WebkitTextFillColor: "transparent",
+                display: "inline-block",
+                maxWidth: "90%",
+                mb: 2,
+              }}
+            >
+              <TypeAnimation
+              sequence={[
+                "Get tech companies chasing you skip the endless hunt through messy blogs and complicated documentation.",
+                2000,
+                () => {}, // loop reset
+              ]}
+              speed={40}
+              repeat={Infinity}
+              deletionSpeed={30}
+              wrapper="span"
+            />
+            </Typography>
           </Box>
-          <Button
+          {/* <Button
             variant="contained"
             onClick={routeToAiDetails}
             sx={{
@@ -122,7 +166,25 @@ WebkitBackgroundClip: "text",
             }}
           >
             Explore
-          </Button>
+          </Button> */}
+           {/* <Box
+            sx={{
+              fontFamily: "Montserrat",
+              fontWeight: 600,
+              fontSize: { lg: "3rem", sm: "2rem", xs: "2rem" },
+              lineHeight: { lg: "3.75rem", sm: "3rem", xs: "3rem" },
+              backgroundColor: "#71DCE3",
+              WebkitBackgroundClip: "text",
+              WebkitTextFillColor: "transparent",
+              display: "inline-block",
+              maxWidth: "90%",
+              mb: 2,
+              textAlign: "left",
+            }}
+          >
+            Master the art of building blazing-fast, high-performance React.js applications.
+            <br />
+          </Box> */}
         </Box>
       </Box>
     </div>
