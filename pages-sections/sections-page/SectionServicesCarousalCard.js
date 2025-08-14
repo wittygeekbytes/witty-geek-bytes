@@ -47,7 +47,7 @@ const SectionServicesCarousalCard = (props)=> {
                     </Typography>
                 </CardBody>
                 <CardFooter>
-                    <Button  style={{width : "100%", background:"#95AD00" ,fontSize:"1rem", fontWeight:"400", borderRadius:"0.5rem"}} disabled = {!services[index].serviceTitle.startsWith("Front") }>KNOW MORE</Button>
+                    <Button  style={{color:"#000000" , background:"#95AD00" ,fontSize:"1rem", fontWeight:"500", borderRadius:"0.5rem"}} disabled = {!services[index].serviceTitle.startsWith("Front") }>KNOW MORE</Button>
                 </CardFooter>
             </Card>
         </GridItem>

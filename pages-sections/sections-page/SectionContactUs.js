@@ -64,18 +64,19 @@ function renderContactItem(iconSrc, lines) {
     <Box sx={{ display: 'flex', alignItems: 'center', mb: 3 }}>
       <Box
         sx={{
-          minWidth: 50,
-          minHeight: 50,
+          minWidth: 40,
+          minHeight: 40,
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
-          backgroundColor: '#fff',
+          // backgroundColor: '#fff',
+          background:"#95AD00",
           borderRadius: '50%',
           boxShadow: '0 3px 10px rgb(0 0 0 / 0.1)',
           mr: 2
         }}
       >
-        <img src={iconSrc} alt="icon" style={{ width: 28, height: 28 }} />
+        <img src={iconSrc} alt="icon" style={{ width: 23, height: 23 }} />
       </Box>
       <Box>
         {lines.map((line, i) => (
